@@ -1,9 +1,10 @@
 module MainStreet
   class AddressVerifier
-    def initialize(address, country: nil, locale: nil)
+    def initialize(address, country: nil, locale: nil, accuracy: nil)
       @address = address
       @country = country
       @locale = locale
+      @accuracy = accuracy
     end
 
     def success?
@@ -39,6 +40,8 @@ module MainStreet
             raise "Unknown dpv_match_code"
           end
         end
+      elsif result.respond_to?(:accuracy) && @accuracy.present?
+        message :unconfirmed, "Address can't be confirmed" if result.accuracy < @accuracy
       end
     end
 
@@ -46,15 +49,15 @@ module MainStreet
       return @result if defined?(@result)
 
       @result = begin
-        options = {lookup: MainStreet.lookup}
-        options[:country] = @country if @country && !usa?
-        # don't use smarty streets zipcode only API
-        # keep mirrored with geocoder gem, including \Z
-        # \Z is the same as \z when strip is used
-        if @address.to_s.strip !~ /\A\d{5}(-\d{4})?\Z/
-          Geocoder.search(@address, options).first
-        end
-      end
+                  options = {lookup: MainStreet.lookup}
+                  options[:country] = @country if @country && !usa?
+                  # don't use smarty streets zipcode only API
+                  # keep mirrored with geocoder gem, including \Z
+                  # \Z is the same as \z when strip is used
+                  if @address.to_s.strip !~ /\A\d{5}(-\d{4})?\Z/
+                    Geocoder.search(@address, options).first
+                  end
+                end
     end
 
     def latitude

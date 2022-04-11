@@ -50,4 +50,24 @@ class AddressVerifierTest < Minitest::Test
     verifier = MainStreet::AddressVerifier.new(address, locale: :fr)
     assert_equal "Cette adresse n’est pas reconnue", verifier.failure_message
   end
+
+  def test_success_with_accuracy
+    use_geocodio
+    address = "1 Infinite Loop, Cupertino, CA 95014"
+    verifier = MainStreet::AddressVerifier.new(address, accuracy: 1)
+    assert verifier.success?
+    assert_nil verifier.failure_message
+    assert_in_delta 37.3319, verifier.latitude, 0.01
+    assert_in_delta (-122.0302), verifier.longitude, 0.01
+    use_nominatim
+  end
+
+  def test_failed_with_accuracy
+    use_geocodio
+    address = "1 Fake Loop, Cupertino, CA 95014"
+    verifier = MainStreet::AddressVerifier.new(address, accuracy: 1)
+    assert !verifier.success?
+    assert_equal "Address can't be confirmed", verifier.failure_message
+    use_nominatim
+  end
 end

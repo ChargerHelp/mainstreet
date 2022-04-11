@@ -1,6 +1,6 @@
 module MainStreet
   module Model
-    def validates_address(fields:, geocode: false, country: nil, **options)
+    def validates_address(fields:, geocode: false, country: nil, accuracy: nil, **options)
       fields = Array(fields.map(&:to_s))
       geocode_options = {latitude: :latitude, longitude: :longitude}
       geocode_options = geocode_options.merge(geocode) if geocode.is_a?(Hash)
@@ -15,7 +15,7 @@ module MainStreet
           if address.present?
             # must use a different variable than country
             record_country = instance_exec(&country) if country.respond_to?(:call)
-            verifier = MainStreet::AddressVerifier.new(address, country: record_country)
+            verifier = MainStreet::AddressVerifier.new(address, country: record_country, accuracy: accuracy)
             if verifier.success?
               if geocode
                 self.send("#{geocode_options[:latitude]}=", verifier.latitude)

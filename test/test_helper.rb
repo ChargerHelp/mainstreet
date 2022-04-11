@@ -17,6 +17,7 @@ VCR.configure do |c|
   c.cassette_library_dir = "test/cassettes"
   c.filter_sensitive_data("<auth-id>") { ENV["SMARTY_STREETS_AUTH_ID"] } if ENV["SMARTY_STREETS_AUTH_ID"]
   c.filter_sensitive_data("<auth-token>") { ENV["SMARTY_STREETS_AUTH_TOKEN"] } if ENV["SMARTY_STREETS_AUTH_TOKEN"]
+  c.filter_sensitive_data("<api-key>") { ENV["GEOCODIO_API_KEY"] } if ENV["GEOCODIO_API_KEY"]
 end
 
 cassette_name = smarty_streets? ? "smarty_streets" : "default"
@@ -41,6 +42,41 @@ end
 
 class Address < ActiveRecord::Base
   validates_address fields: [:street, :city, :region, :postal_code],
-    geocode: true,
-    country: -> { country }
+                    geocode: true,
+                    country: -> { country }
+end
+
+
+ActiveRecord::Migration.create_table :address_with_accuracies do |t|
+  t.text :street
+  t.text :city
+  t.string :region
+  t.string :postal_code
+  t.string :country
+  t.decimal :latitude
+  t.decimal :longitude
+end
+
+class AddressWithAccuracy < ActiveRecord::Base
+  validates_address fields: [:street, :city, :region, :postal_code],
+                    geocode: true,
+                    accuracy: 1,
+                    country: -> { country }
+end
+
+def use_geocodio
+  if ENV["GEOCODIO_API_KEY"]
+    Geocoder.configure(
+      lookup: :geocodio,
+      geocodio: {
+        api_key: ENV["GEOCODIO_API_KEY"]
+      })
+  end
+end
+
+def use_nominatim
+  if ENV["GEOCODIO_API_KEY"]
+    Geocoder.configure(
+      lookup: :nominatim)
+  end
 end

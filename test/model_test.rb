@@ -40,4 +40,31 @@ class ModelTest < Minitest::Test
     assert_in_delta 48.867, address.latitude, 0.01
     assert_in_delta 2.363, address.longitude, 0.01
   end
+
+  def test_with_accuracy_success
+    use_geocodio
+    address = AddressWithAccuracy.new(
+      street: "1 Infinite Loop",
+      city: "Cupertino",
+      region: "CA",
+      postal_code: "95014"
+    )
+    assert address.valid?
+    assert_in_delta 37.3319, address.latitude, 0.01
+    assert_in_delta (-122.0302), address.longitude, 0.01
+    use_nominatim
+  end
+
+  def test_with_accuracy_failed
+    use_geocodio
+    address = AddressWithAccuracy.new(
+      street: "1600 Fake Ave",
+      city: "Washington",
+      region: "DC",
+      postal_code: "20500"
+    )
+    assert !address.valid?
+    assert_equal ["Address can't be confirmed"], address.errors.full_messages
+    use_nominatim
+  end
 end

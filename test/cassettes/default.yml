@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1600%20Fake%20Ave,%20Washington,%20DC,%2020500
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=99%20Fictitious%20St,%20Westminster,%20London%20SW1A%202AA
     body:
       encoding: US-ASCII
       string: ''
@@ -18,291 +18,26 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sat, 01 Dec 2018 01:08:56 GMT
       Server:
-      - Apache/2.4.29 (Ubuntu)
+      - nginx
+      Date:
+      - Mon, 11 Apr 2022 15:55:00 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
     body:
       encoding: UTF-8
       string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:08:56 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1600%20Fake%20Ave,%20Washington,%20DC,%2020500
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 01 Dec 2018 01:08:56 GMT
-      Server:
-      - Apache/2.4.29 (Ubuntu)
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
-    body:
-      encoding: UTF-8
-      string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:08:57 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1600%20Fake%20Ave,%20Washington,%20DC,%2020500
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 01 Dec 2018 01:08:57 GMT
-      Server:
-      - Apache/2.4.29 (Ubuntu)
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
-    body:
-      encoding: UTF-8
-      string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:08:57 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1600%20Fake%20Ave,%20Washington,%20DC,%2020500
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 01 Dec 2018 01:08:58 GMT
-      Server:
-      - Apache/2.4.29 (Ubuntu)
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
-    body:
-      encoding: UTF-8
-      string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:08:58 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1600%20Fake%20Ave,%20Washington,%20DC,%2020500
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 01 Dec 2018 01:08:59 GMT
-      Server:
-      - Apache/2.4.29 (Ubuntu)
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
-    body:
-      encoding: UTF-8
-      string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:08:59 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=13%20Rue%20Yves%20Toudic,%20Paris,%2075010
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 01 Dec 2018 01:08:59 GMT
-      Server:
-      - Apache/2.4.29 (Ubuntu)
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        W3sicGxhY2VfaWQiOiI4NzE0NjgyIiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoiOTEyMjcwNzQ1IiwiYm91bmRpbmdib3giOlsiNDguODcwMDc5NSIsIjQ4Ljg3MDE3OTUiLCIyLjM2MzQ0MTMiLCIyLjM2MzU0MTMiXSwibGF0IjoiNDguODcwMTI5NSIsImxvbiI6IjIuMzYzNDkxMyIsImRpc3BsYXlfbmFtZSI6IjEzLCBSdWUgWXZlcyBUb3VkaWMsIFBvcnRlLVN0LU1hcnRpbiwgMTB0aCBBcnJvbmRpc3NlbWVudCwgUGFyaXMsIElsZS1kZS1GcmFuY2UsIE1ldHJvcG9saXRhbiBGcmFuY2UsIDc1MDEwLCBGcmFuY2UiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6ImhvdXNlIiwiaW1wb3J0YW5jZSI6MC42MzA5OTk5OTk5OTk5OTk5LCJhZGRyZXNzIjp7ImhvdXNlX251bWJlciI6IjEzIiwicm9hZCI6IlJ1ZSBZdmVzIFRvdWRpYyIsInN1YnVyYiI6IlBvcnRlLVN0LU1hcnRpbiIsImNpdHlfZGlzdHJpY3QiOiIxMHRoIEFycm9uZGlzc2VtZW50IiwiY2l0eSI6IlBhcmlzIiwiY291bnR5IjoiUGFyaXMiLCJzdGF0ZSI6IklsZS1kZS1GcmFuY2UiLCJjb3VudHJ5IjoiRnJhbmNlIiwicG9zdGNvZGUiOiI3NTAxMCIsImNvdW50cnlfY29kZSI6ImZyIn19XQ==
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:00 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Infinite%20Loop,%20Cupertino,%20CA,%2095014
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 01 Dec 2018 01:09:00 GMT
-      Server:
-      - Apache/2.4.29 (Ubuntu)
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        W3sicGxhY2VfaWQiOiIxNjAzNTAwOCIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6IjE0Mjk0Nzc1MDQiLCJib3VuZGluZ2JveCI6WyIzNy4zMzEzNTUiLCIzNy4zMzE0NTUiLCItMTIyLjAzMDQ2ODUiLCItMTIyLjAzMDM2ODUiXSwibGF0IjoiMzcuMzMxNDA1IiwibG9uIjoiLTEyMi4wMzA0MTg1IiwiZGlzcGxheV9uYW1lIjoiQXBwbGUgSW5maW5pdGUgTG9vcCwgMSwgSW5maW5pdGUgTG9vcCwgQXBwbGUsIEluYy4sIEN1cGVydGlubywgU2FudGEgQ2xhcmEgQ291bnR5LCBDYWxpZm9ybmlhLCA5NTAxNCwgVVNBIiwiY2xhc3MiOiJzaG9wIiwidHlwZSI6ImVsZWN0cm9uaWNzIiwiaW1wb3J0YW5jZSI6MC42MzA5OTk5OTk5OTk5OTk5LCJhZGRyZXNzIjp7ImVsZWN0cm9uaWNzIjoiQXBwbGUgSW5maW5pdGUgTG9vcCIsImhvdXNlX251bWJlciI6IjEiLCJyb2FkIjoiSW5maW5pdGUgTG9vcCIsImNvbW1lcmNpYWwiOiJBcHBsZSwgSW5jLiIsImNpdHkiOiJDdXBlcnRpbm8iLCJjb3VudHkiOiJTYW50YSBDbGFyYSBDb3VudHkiLCJzdGF0ZSI6IkNhbGlmb3JuaWEiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVTQSIsImNvdW50cnlfY29kZSI6InVzIn19LHsicGxhY2VfaWQiOiIxMDExNTI5NzIiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6IndheSIsIm9zbV9pZCI6IjExNDA1NDgyOSIsImJvdW5kaW5nYm94IjpbIjM3LjMzMTE5NTciLCIzNy4zMzIxNjQ5IiwiLTEyMi4wMzA1NTQzIiwiLTEyMi4wMjk3OTY0Il0sImxhdCI6IjM3LjMzMTY3NCIsImxvbiI6Ii0xMjIuMDMwMDg0ODA3ODIxIiwiZGlzcGxheV9uYW1lIjoiSW5maW5pdGUgTG9vcCAxLCAxLCBJbmZpbml0ZSBMb29wLCBBcHBsZSwgSW5jLiwgQ3VwZXJ0aW5vLCBTYW50YSBDbGFyYSBDb3VudHksIENhbGlmb3JuaWEsIDk1MDE0LCBVU0EiLCJjbGFzcyI6ImJ1aWxkaW5nIiwidHlwZSI6InllcyIsImltcG9ydGFuY2UiOjAuNjMwOTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJidWlsZGluZyI6IkluZmluaXRlIExvb3AgMSIsImhvdXNlX251bWJlciI6IjEiLCJyb2FkIjoiSW5maW5pdGUgTG9vcCIsImNvbW1lcmNpYWwiOiJBcHBsZSwgSW5jLiIsImNpdHkiOiJDdXBlcnRpbm8iLCJjb3VudHkiOiJTYW50YSBDbGFyYSBDb3VudHkiLCJzdGF0ZSI6IkNhbGlmb3JuaWEiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVTQSIsImNvdW50cnlfY29kZSI6InVzIn19XQ==
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:00 GMT
+  recorded_at: Mon, 11 Apr 2022 15:55:00 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=122%20Mast%20Rd,%20Lee,%20NH%2003861
@@ -321,32 +56,209 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sat, 01 Dec 2018 01:09:01 GMT
       Server:
-      - Apache/2.4.29 (Ubuntu)
+      - nginx
+      Date:
+      - Mon, 11 Apr 2022 15:55:01 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        W3sicGxhY2VfaWQiOiIxMDgxNDM1NDEiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6IndheSIsIm9zbV9pZCI6IjE0MjU0NjMwOCIsImJvdW5kaW5nYm94IjpbIjQzLjEzNTk2NSIsIjQzLjEzNjIxODUiLCItNzAuOTg2NDEwNyIsIi03MC45ODU1MTM2Il0sImxhdCI6IjQzLjEzNjEwMTIiLCJsb24iOiItNzAuOTg1ODM2ODM5NDgxMiIsImRpc3BsYXlfbmFtZSI6IjEyMiwgTWFzdCBSb2FkLCBMZWUsIFN0cmFmZm9yZCBDb3VudHksIE5ldyBIYW1wc2hpcmUsIDAzODYxLCBVU0EiLCJjbGFzcyI6ImJ1aWxkaW5nIiwidHlwZSI6InllcyIsImltcG9ydGFuY2UiOjAuNTMwOTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJob3VzZV9udW1iZXIiOiIxMjIiLCJyb2FkIjoiTWFzdCBSb2FkIiwidmlsbGFnZSI6IkxlZSIsImNvdW50eSI6IlN0cmFmZm9yZCBDb3VudHkiLCJzdGF0ZSI6Ik5ldyBIYW1wc2hpcmUiLCJwb3N0Y29kZSI6IjAzODYxIiwiY291bnRyeSI6IlVTQSIsImNvdW50cnlfY29kZSI6InVzIn19XQ==
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:01 GMT
+        W3sicGxhY2VfaWQiOjMwNzM0NTgzNiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOjI3OTI5NzI5LCJib3VuZGluZ2JveCI6WyI0My4xMzYwNjc0Mjc2NTkiLCI0My4xMzYxNjc0Mjc2NTkiLCItNzAuOTg3MzMwOTE4NzU0IiwiLTcwLjk4NzIzMDkxODc1NCJdLCJsYXQiOiI0My4xMzYxMTc0Mjc2NTkxMiIsImxvbiI6Ii03MC45ODcyODA5MTg3NTQ0MiIsImRpc3BsYXlfbmFtZSI6IjEyMiwgTWFzdCBSb2FkLCBMZWUsIFN0cmFmZm9yZCBDb3VudHksIE5ldyBIYW1wc2hpcmUsIDAzODYxLCBVbml0ZWQgU3RhdGVzIiwiY2xhc3MiOiJwbGFjZSIsInR5cGUiOiJob3VzZSIsImltcG9ydGFuY2UiOjAuNTMwOTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJob3VzZV9udW1iZXIiOiIxMjIiLCJyb2FkIjoiTWFzdCBSb2FkIiwidmlsbGFnZSI6IkxlZSIsImNvdW50eSI6IlN0cmFmZm9yZCBDb3VudHkiLCJzdGF0ZSI6Ik5ldyBIYW1wc2hpcmUiLCJwb3N0Y29kZSI6IjAzODYxIiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoxMzQ0MzIwODQsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoid2F5Iiwib3NtX2lkIjoxNDI1NDYzMDgsImJvdW5kaW5nYm94IjpbIjQzLjEzNTk2NSIsIjQzLjEzNjIxODUiLCItNzAuOTg2NDEwNyIsIi03MC45ODU1MTM2Il0sImxhdCI6IjQzLjEzNjEwMTIiLCJsb24iOiItNzAuOTg1ODM2ODM5NDgxMTgiLCJkaXNwbGF5X25hbWUiOiIxMjIsIE1hc3QgUm9hZCwgTGVlLCBTdHJhZmZvcmQgQ291bnR5LCBOZXcgSGFtcHNoaXJlLCAwMzg2MSwgVW5pdGVkIFN0YXRlcyIsImNsYXNzIjoiYnVpbGRpbmciLCJ0eXBlIjoieWVzIiwiaW1wb3J0YW5jZSI6MC41MzA5OTk5OTk5OTk5OTk5LCJhZGRyZXNzIjp7ImhvdXNlX251bWJlciI6IjEyMiIsInJvYWQiOiJNYXN0IFJvYWQiLCJ2aWxsYWdlIjoiTGVlIiwiY291bnR5IjoiU3RyYWZmb3JkIENvdW50eSIsInN0YXRlIjoiTmV3IEhhbXBzaGlyZSIsInBvc3Rjb2RlIjoiMDM4NjEiLCJjb3VudHJ5IjoiVW5pdGVkIFN0YXRlcyIsImNvdW50cnlfY29kZSI6InVzIn19XQ==
+  recorded_at: Mon, 11 Apr 2022 15:55:01 GMT
+- request:
+    method: get
+    uri: http://api.geocod.io/v1.6/geocode?api_key=<api-key>&q=1%20Infinite%20Loop,%20Cupertino,%20CA%2095014
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Cache-Control:
+      - no-cache, private
+      Date:
+      - Mon, 11 Apr 2022 15:55:01 GMT
+      X-Billable-Lookups-Count:
+      - '1'
+      X-Billable-Fields-Count:
+      - '0'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Headers:
+      - Content-Type, User-Agent
+      Access-Control-Expose-Headers:
+      - Request-Handler
+      Request-Handler:
+      - api192
+      Server:
+      - Unicorns with magic wands (https://www.geocod.io)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Robots-Tag:
+      - none
+      X-Ratelimit-Remaining:
+      - '999'
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Period:
+      - '60'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"input":{"address_components":{"number":"1","street":"Infinite","suffix":"Loop","formatted_street":"Infinite
+        Loop","city":"Cupertino","state":"CA","zip":"95014","country":"US"},"formatted_address":"1
+        Infinite Loop, Cupertino, CA 95014"},"results":[{"address_components":{"number":"1","street":"Infinite","suffix":"Loop","formatted_street":"Infinite
+        Loop","city":"Cupertino","county":"Santa Clara County","state":"CA","zip":"95014","country":"US"},"formatted_address":"1
+        Infinite Loop, Cupertino, CA 95014","location":{"lat":37.331524,"lng":-122.030231},"accuracy":1,"accuracy_type":"rooftop","source":"City
+        of Cupertino"}],"_warnings":["There is a newer API version available, please
+        consider upgrading to v1.7. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}'
+  recorded_at: Mon, 11 Apr 2022 15:55:01 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 11 Apr 2022 15:55:01 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+    body:
+      encoding: UTF-8
+      string: "[]"
+  recorded_at: Mon, 11 Apr 2022 15:55:01 GMT
+- request:
+    method: get
+    uri: http://api.geocod.io/v1.6/geocode?api_key=<api-key>&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Cache-Control:
+      - no-cache, private
+      Date:
+      - Mon, 11 Apr 2022 15:55:02 GMT
+      X-Billable-Lookups-Count:
+      - '1'
+      X-Billable-Fields-Count:
+      - '0'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Headers:
+      - Content-Type, User-Agent
+      Access-Control-Expose-Headers:
+      - Request-Handler
+      Request-Handler:
+      - api161
+      Server:
+      - Unicorns with magic wands (https://www.geocod.io)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Robots-Tag:
+      - none
+      X-Ratelimit-Remaining:
+      - '998'
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Period:
+      - '60'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"input":{"address_components":{"number":"1","city":"Cupertino","state":"CA","zip":"95014","country":"US"},"formatted_address":"1,
+        Cupertino, CA 95014"},"results":[{"address_components":{"city":"Cupertino","county":"Santa
+        Clara County","state":"CA","zip":"95014","country":"US"},"formatted_address":"Cupertino,
+        CA 95014","location":{"lat":37.30661,"lng":-122.080628},"accuracy":0.5,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Cupertino","county":"Santa
+        Clara County","state":"CA","zip":"95015","country":"US"},"formatted_address":"Cupertino,
+        CA 95015","location":{"lat":37.189396,"lng":-121.705327},"accuracy":0.5,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Monta Vista","county":"Santa
+        Clara County","state":"CA","zip":"95014","country":"US"},"formatted_address":"Monta
+        Vista, CA 95014","location":{"lat":37.32272,"lng":-122.058017},"accuracy":0.28,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Rancho
+        Rinconada","county":"Santa Clara County","state":"CA","zip":"95014","country":"US"},"formatted_address":"Rancho
+        Rinconada, CA 95014","location":{"lat":37.314942,"lng":-122.003015},"accuracy":0.28,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"}],"_warnings":["There is a newer API version
+        available, please consider upgrading to v1.7. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}'
+  recorded_at: Mon, 11 Apr 2022 15:55:02 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=13%20Rue%20Yves%20Toudic,%20Paris%2075010
@@ -365,32 +277,27 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sat, 01 Dec 2018 01:09:02 GMT
       Server:
-      - Apache/2.4.29 (Ubuntu)
+      - nginx
+      Date:
+      - Mon, 11 Apr 2022 15:55:02 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        W3sicGxhY2VfaWQiOiI4NzE0NjgyIiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczpcL1wvb3NtLm9yZ1wvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoiOTEyMjcwNzQ1IiwiYm91bmRpbmdib3giOlsiNDguODcwMDc5NSIsIjQ4Ljg3MDE3OTUiLCIyLjM2MzQ0MTMiLCIyLjM2MzU0MTMiXSwibGF0IjoiNDguODcwMTI5NSIsImxvbiI6IjIuMzYzNDkxMyIsImRpc3BsYXlfbmFtZSI6IjEzLCBSdWUgWXZlcyBUb3VkaWMsIFBvcnRlLVN0LU1hcnRpbiwgMTB0aCBBcnJvbmRpc3NlbWVudCwgUGFyaXMsIElsZS1kZS1GcmFuY2UsIE1ldHJvcG9saXRhbiBGcmFuY2UsIDc1MDEwLCBGcmFuY2UiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6ImhvdXNlIiwiaW1wb3J0YW5jZSI6MC42MzA5OTk5OTk5OTk5OTk5LCJhZGRyZXNzIjp7ImhvdXNlX251bWJlciI6IjEzIiwicm9hZCI6IlJ1ZSBZdmVzIFRvdWRpYyIsInN1YnVyYiI6IlBvcnRlLVN0LU1hcnRpbiIsImNpdHlfZGlzdHJpY3QiOiIxMHRoIEFycm9uZGlzc2VtZW50IiwiY2l0eSI6IlBhcmlzIiwiY291bnR5IjoiUGFyaXMiLCJzdGF0ZSI6IklsZS1kZS1GcmFuY2UiLCJjb3VudHJ5IjoiRnJhbmNlIiwicG9zdGNvZGUiOiI3NTAxMCIsImNvdW50cnlfY29kZSI6ImZyIn19XQ==
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:02 GMT
+        W3sicGxhY2VfaWQiOjc0MTgxNDksImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6OTEyMjcwNzQ1LCJib3VuZGluZ2JveCI6WyI0OC44NzAwNzk1IiwiNDguODcwMTc5NSIsIjIuMzYzNDQxMyIsIjIuMzYzNTQxMyJdLCJsYXQiOiI0OC44NzAxMjk1IiwibG9uIjoiMi4zNjM0OTEzIiwiZGlzcGxheV9uYW1lIjoiMTMsIFJ1ZSBZdmVzIFRvdWRpYywgUXVhcnRpZXIgZGUgbGEgUG9ydGUtU2FpbnQtTWFydGluLCAxMHRoIEFycm9uZGlzc2VtZW50LCBQYXJpcywgSWxlLWRlLUZyYW5jZSwgTWV0cm9wb2xpdGFuIEZyYW5jZSwgNzUwMTAsIEZyYW5jZSIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoiaG91c2UiLCJpbXBvcnRhbmNlIjowLjYzMDk5OTk5OTk5OTk5OTksImFkZHJlc3MiOnsiaG91c2VfbnVtYmVyIjoiMTMiLCJyb2FkIjoiUnVlIFl2ZXMgVG91ZGljIiwiY2l0eV9ibG9jayI6IlF1YXJ0aWVyIGRlIGxhIFBvcnRlLVNhaW50LU1hcnRpbiIsInN1YnVyYiI6IjEwdGggQXJyb25kaXNzZW1lbnQiLCJjaXR5X2Rpc3RyaWN0IjoiUGFyaXMiLCJjaXR5IjoiUGFyaXMiLCJjb3VudHkiOiJQYXJpcyIsInN0YXRlIjoiSWxlLWRlLUZyYW5jZSIsInJlZ2lvbiI6Ik1ldHJvcG9saXRhbiBGcmFuY2UiLCJwb3N0Y29kZSI6Ijc1MDEwIiwiY291bnRyeSI6IkZyYW5jZSIsImNvdW50cnlfY29kZSI6ImZyIn19XQ==
+  recorded_at: Mon, 11 Apr 2022 15:55:02 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Infinite%20Loop,%20Cupertino,%20CA%2095014
@@ -409,32 +316,27 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sat, 01 Dec 2018 01:09:02 GMT
       Server:
-      - Apache/2.4.29 (Ubuntu)
+      - nginx
+      Date:
+      - Mon, 11 Apr 2022 15:55:03 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        W3sicGxhY2VfaWQiOiIxNjAzNTAwOCIsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6XC9cL29zbS5vcmdcL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6IjE0Mjk0Nzc1MDQiLCJib3VuZGluZ2JveCI6WyIzNy4zMzEzNTUiLCIzNy4zMzE0NTUiLCItMTIyLjAzMDQ2ODUiLCItMTIyLjAzMDM2ODUiXSwibGF0IjoiMzcuMzMxNDA1IiwibG9uIjoiLTEyMi4wMzA0MTg1IiwiZGlzcGxheV9uYW1lIjoiQXBwbGUgSW5maW5pdGUgTG9vcCwgMSwgSW5maW5pdGUgTG9vcCwgQXBwbGUsIEluYy4sIEN1cGVydGlubywgU2FudGEgQ2xhcmEgQ291bnR5LCBDYWxpZm9ybmlhLCA5NTAxNCwgVVNBIiwiY2xhc3MiOiJzaG9wIiwidHlwZSI6ImVsZWN0cm9uaWNzIiwiaW1wb3J0YW5jZSI6MC42MzA5OTk5OTk5OTk5OTk5LCJhZGRyZXNzIjp7ImVsZWN0cm9uaWNzIjoiQXBwbGUgSW5maW5pdGUgTG9vcCIsImhvdXNlX251bWJlciI6IjEiLCJyb2FkIjoiSW5maW5pdGUgTG9vcCIsImNvbW1lcmNpYWwiOiJBcHBsZSwgSW5jLiIsImNpdHkiOiJDdXBlcnRpbm8iLCJjb3VudHkiOiJTYW50YSBDbGFyYSBDb3VudHkiLCJzdGF0ZSI6IkNhbGlmb3JuaWEiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVTQSIsImNvdW50cnlfY29kZSI6InVzIn19LHsicGxhY2VfaWQiOiIxMDExNTI5NzIiLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOlwvXC9vc20ub3JnXC9jb3B5cmlnaHQiLCJvc21fdHlwZSI6IndheSIsIm9zbV9pZCI6IjExNDA1NDgyOSIsImJvdW5kaW5nYm94IjpbIjM3LjMzMTE5NTciLCIzNy4zMzIxNjQ5IiwiLTEyMi4wMzA1NTQzIiwiLTEyMi4wMjk3OTY0Il0sImxhdCI6IjM3LjMzMTY3NCIsImxvbiI6Ii0xMjIuMDMwMDg0ODA3ODIxIiwiZGlzcGxheV9uYW1lIjoiSW5maW5pdGUgTG9vcCAxLCAxLCBJbmZpbml0ZSBMb29wLCBBcHBsZSwgSW5jLiwgQ3VwZXJ0aW5vLCBTYW50YSBDbGFyYSBDb3VudHksIENhbGlmb3JuaWEsIDk1MDE0LCBVU0EiLCJjbGFzcyI6ImJ1aWxkaW5nIiwidHlwZSI6InllcyIsImltcG9ydGFuY2UiOjAuNjMwOTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJidWlsZGluZyI6IkluZmluaXRlIExvb3AgMSIsImhvdXNlX251bWJlciI6IjEiLCJyb2FkIjoiSW5maW5pdGUgTG9vcCIsImNvbW1lcmNpYWwiOiJBcHBsZSwgSW5jLiIsImNpdHkiOiJDdXBlcnRpbm8iLCJjb3VudHkiOiJTYW50YSBDbGFyYSBDb3VudHkiLCJzdGF0ZSI6IkNhbGlmb3JuaWEiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVTQSIsImNvdW50cnlfY29kZSI6InVzIn19XQ==
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:03 GMT
+        W3sicGxhY2VfaWQiOjEyNzA5MjMxNSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOjExNDA1NDgyOSwiYm91bmRpbmdib3giOlsiMzcuMzMxMTk1NyIsIjM3LjMzMjE2NDkiLCItMTIyLjAzMDU1NDMiLCItMTIyLjAyOTgyNDUiXSwibGF0IjoiMzcuMzMxNjY5NyIsImxvbiI6Ii0xMjIuMDMwMDk4MjAyMTU1MDIiLCJkaXNwbGF5X25hbWUiOiJJbmZpbml0ZSBMb29wIDEsIDEsIEluZmluaXRlIExvb3AsIEFwcGxlIENhbXB1cywgQ3VwZXJ0aW5vLCBTYW50YSBDbGFyYSBDb3VudHksIENhbGlmb3JuaWEsIDk1MDE0LCBVbml0ZWQgU3RhdGVzIiwiY2xhc3MiOiJvZmZpY2UiLCJ0eXBlIjoiY29tcGFueSIsImltcG9ydGFuY2UiOjAuNjMwOTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJvZmZpY2UiOiJJbmZpbml0ZSBMb29wIDEiLCJob3VzZV9udW1iZXIiOiIxIiwicm9hZCI6IkluZmluaXRlIExvb3AiLCJjb21tZXJjaWFsIjoiQXBwbGUgQ2FtcHVzIiwiY2l0eSI6IkN1cGVydGlubyIsImNvdW50eSI6IlNhbnRhIENsYXJhIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsIklTTzMxNjYtMi1sdmw0IjoiVVMtQ0EiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoxMzc1NzA2MSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoxNDI5NDc3NTA0LCJib3VuZGluZ2JveCI6WyIzNy4zMzEzNTUiLCIzNy4zMzE0NTUiLCItMTIyLjAzMDQ2ODUiLCItMTIyLjAzMDM2ODUiXSwibGF0IjoiMzcuMzMxNDA1IiwibG9uIjoiLTEyMi4wMzA0MTg1IiwiZGlzcGxheV9uYW1lIjoiQXBwbGUgSW5maW5pdGUgTG9vcCwgMSwgSW5maW5pdGUgTG9vcCwgQXBwbGUgQ2FtcHVzLCBDdXBlcnRpbm8sIFNhbnRhIENsYXJhIENvdW50eSwgQ2FsaWZvcm5pYSwgOTUwMTQsIFVuaXRlZCBTdGF0ZXMiLCJjbGFzcyI6InNob3AiLCJ0eXBlIjoiZWxlY3Ryb25pY3MiLCJpbXBvcnRhbmNlIjowLjYzMDk5OTk5OTk5OTk5OTksImFkZHJlc3MiOnsic2hvcCI6IkFwcGxlIEluZmluaXRlIExvb3AiLCJob3VzZV9udW1iZXIiOiIxIiwicm9hZCI6IkluZmluaXRlIExvb3AiLCJjb21tZXJjaWFsIjoiQXBwbGUgQ2FtcHVzIiwiY2l0eSI6IkN1cGVydGlubyIsImNvdW50eSI6IlNhbnRhIENsYXJhIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsIklTTzMxNjYtMi1sdmw0IjoiVVMtQ0EiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fV0=
+  recorded_at: Mon, 11 Apr 2022 15:55:02 GMT
 - request:
     method: get
     uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
@@ -453,34 +355,29 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sat, 01 Dec 2018 01:09:04 GMT
       Server:
-      - Apache/2.4.29 (Ubuntu)
+      - nginx
+      Date:
+      - Mon, 11 Apr 2022 15:55:03 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
     body:
       encoding: UTF-8
       string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:04 GMT
+  recorded_at: Mon, 11 Apr 2022 15:55:03 GMT
 - request:
     method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Infinite%20Loop,%20Cupertino,%20CA,%2095014
     body:
       encoding: US-ASCII
       string: ''
@@ -496,34 +393,30 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sat, 01 Dec 2018 01:09:04 GMT
       Server:
-      - Apache/2.4.29 (Ubuntu)
+      - nginx
+      Date:
+      - Mon, 11 Apr 2022 15:55:04 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
     body:
-      encoding: UTF-8
-      string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:04 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjEyNzA5MjMxNSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOjExNDA1NDgyOSwiYm91bmRpbmdib3giOlsiMzcuMzMxMTk1NyIsIjM3LjMzMjE2NDkiLCItMTIyLjAzMDU1NDMiLCItMTIyLjAyOTgyNDUiXSwibGF0IjoiMzcuMzMxNjY5NyIsImxvbiI6Ii0xMjIuMDMwMDk4MjAyMTU1MDIiLCJkaXNwbGF5X25hbWUiOiJJbmZpbml0ZSBMb29wIDEsIDEsIEluZmluaXRlIExvb3AsIEFwcGxlIENhbXB1cywgQ3VwZXJ0aW5vLCBTYW50YSBDbGFyYSBDb3VudHksIENhbGlmb3JuaWEsIDk1MDE0LCBVbml0ZWQgU3RhdGVzIiwiY2xhc3MiOiJvZmZpY2UiLCJ0eXBlIjoiY29tcGFueSIsImltcG9ydGFuY2UiOjAuNjMwOTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJvZmZpY2UiOiJJbmZpbml0ZSBMb29wIDEiLCJob3VzZV9udW1iZXIiOiIxIiwicm9hZCI6IkluZmluaXRlIExvb3AiLCJjb21tZXJjaWFsIjoiQXBwbGUgQ2FtcHVzIiwiY2l0eSI6IkN1cGVydGlubyIsImNvdW50eSI6IlNhbnRhIENsYXJhIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsIklTTzMxNjYtMi1sdmw0IjoiVVMtQ0EiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoxMzc1NzA2MSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoxNDI5NDc3NTA0LCJib3VuZGluZ2JveCI6WyIzNy4zMzEzNTUiLCIzNy4zMzE0NTUiLCItMTIyLjAzMDQ2ODUiLCItMTIyLjAzMDM2ODUiXSwibGF0IjoiMzcuMzMxNDA1IiwibG9uIjoiLTEyMi4wMzA0MTg1IiwiZGlzcGxheV9uYW1lIjoiQXBwbGUgSW5maW5pdGUgTG9vcCwgMSwgSW5maW5pdGUgTG9vcCwgQXBwbGUgQ2FtcHVzLCBDdXBlcnRpbm8sIFNhbnRhIENsYXJhIENvdW50eSwgQ2FsaWZvcm5pYSwgOTUwMTQsIFVuaXRlZCBTdGF0ZXMiLCJjbGFzcyI6InNob3AiLCJ0eXBlIjoiZWxlY3Ryb25pY3MiLCJpbXBvcnRhbmNlIjowLjYzMDk5OTk5OTk5OTk5OTksImFkZHJlc3MiOnsic2hvcCI6IkFwcGxlIEluZmluaXRlIExvb3AiLCJob3VzZV9udW1iZXIiOiIxIiwicm9hZCI6IkluZmluaXRlIExvb3AiLCJjb21tZXJjaWFsIjoiQXBwbGUgQ2FtcHVzIiwiY2l0eSI6IkN1cGVydGlubyIsImNvdW50eSI6IlNhbnRhIENsYXJhIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsIklTTzMxNjYtMi1sdmw0IjoiVVMtQ0EiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fV0=
+  recorded_at: Mon, 11 Apr 2022 15:55:04 GMT
 - request:
     method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
+    uri: http://api.geocod.io/v1.6/geocode?api_key=<api-key>&q=1600%20Fake%20Ave,%20Washington,%20DC,%2020500
     body:
       encoding: US-ASCII
       string: ''
@@ -539,34 +432,1024 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Cache-Control:
+      - no-cache, private
       Date:
-      - Sat, 01 Dec 2018 01:09:05 GMT
-      Server:
-      - Apache/2.4.29 (Ubuntu)
+      - Mon, 11 Apr 2022 15:55:04 GMT
+      X-Billable-Lookups-Count:
+      - '1'
+      X-Billable-Fields-Count:
+      - '0'
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
-      - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
+      - GET, POST
+      Access-Control-Allow-Headers:
+      - Content-Type, User-Agent
+      Access-Control-Expose-Headers:
+      - Request-Handler
+      Request-Handler:
+      - api200
+      Server:
+      - Unicorns with magic wands (https://www.geocod.io)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Robots-Tag:
+      - none
+      X-Ratelimit-Remaining:
+      - '997'
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Period:
+      - '60'
       Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
+      - close
     body:
       encoding: UTF-8
-      string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:05 GMT
+      string: '{"input":{"address_components":{"number":"1600","city":"Washington","state":"DC","zip":"20500","country":"US"},"formatted_address":"1600,
+        Washington, DC 20500"},"results":[{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20501","country":"US"},"formatted_address":"Washington,
+        DC 20501","location":{"lat":38.89872,"lng":-77.036198},"accuracy":0.5,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20502","country":"US"},"formatted_address":"Washington,
+        DC 20502","location":{"lat":38.89872,"lng":-77.036198},"accuracy":0.5,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20503","country":"US"},"formatted_address":"Washington,
+        DC 20503","location":{"lat":38.900711,"lng":-77.043068},"accuracy":0.5,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20504","country":"US"},"formatted_address":"Washington,
+        DC 20504","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.49,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20505","country":"US"},"formatted_address":"Washington,
+        DC 20505","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.49,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20506","country":"US"},"formatted_address":"Washington,
+        DC 20506","location":{"lat":38.89703,"lng":-77.038702},"accuracy":0.49,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20507","country":"US"},"formatted_address":"Washington,
+        DC 20507","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.49,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20508","country":"US"},"formatted_address":"Washington,
+        DC 20508","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.49,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20510","country":"US"},"formatted_address":"Washington,
+        DC 20510","location":{"lat":38.89278,"lng":-77.00689},"accuracy":0.48,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20515","country":"US"},"formatted_address":"Washington,
+        DC 20515","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.48,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20520","country":"US"},"formatted_address":"Washington,
+        DC 20520","location":{"lat":38.894759,"lng":-77.048407},"accuracy":0.47,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20521","country":"US"},"formatted_address":"Washington,
+        DC 20521","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.47,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20522","country":"US"},"formatted_address":"Washington,
+        DC 20522","location":{"lat":38.893217,"lng":-77.048957},"accuracy":0.46,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20523","country":"US"},"formatted_address":"Washington,
+        DC 20523","location":{"lat":38.89449,"lng":-77.047807},"accuracy":0.46,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20524","country":"US"},"formatted_address":"Washington,
+        DC 20524","location":{"lat":38.902414,"lng":-77.032601},"accuracy":0.46,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20525","country":"US"},"formatted_address":"Washington,
+        DC 20525","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.46,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20526","country":"US"},"formatted_address":"Washington,
+        DC 20526","location":{"lat":38.902217,"lng":-77.043738},"accuracy":0.46,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20527","country":"US"},"formatted_address":"Washington,
+        DC 20527","location":{"lat":38.902933,"lng":-77.036091},"accuracy":0.46,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20472","country":"US"},"formatted_address":"Washington,
+        DC 20472","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.45,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20470","country":"US"},"formatted_address":"Washington,
+        DC 20470","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.45,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20530","country":"US"},"formatted_address":"Washington,
+        DC 20530","location":{"lat":38.897561,"lng":-77.026998},"accuracy":0.45,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20509","country":"US"},"formatted_address":"Washington,
+        DC 20509","location":{"lat":38.8987,"lng":-77.0356},"accuracy":0.44,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20511","country":"US"},"formatted_address":"Washington,
+        DC 20511","location":{"lat":38.8951,"lng":-77.0364},"accuracy":0.43,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20001","country":"US"},"formatted_address":"Washington,
+        DC 20001","location":{"lat":38.911936,"lng":-77.016719},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20002","country":"US"},"formatted_address":"Washington,
+        DC 20002","location":{"lat":38.908218,"lng":-76.982147},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20003","country":"US"},"formatted_address":"Washington,
+        DC 20003","location":{"lat":38.881904,"lng":-76.990935},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20004","country":"US"},"formatted_address":"Washington,
+        DC 20004","location":{"lat":38.894888,"lng":-77.028635},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20005","country":"US"},"formatted_address":"Washington,
+        DC 20005","location":{"lat":38.904011,"lng":-77.031695},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20006","country":"US"},"formatted_address":"Washington,
+        DC 20006","location":{"lat":38.897131,"lng":-77.041248},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20007","country":"US"},"formatted_address":"Washington,
+        DC 20007","location":{"lat":38.914561,"lng":-77.075649},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20008","country":"US"},"formatted_address":"Washington,
+        DC 20008","location":{"lat":38.93521,"lng":-77.060399},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20009","country":"US"},"formatted_address":"Washington,
+        DC 20009","location":{"lat":38.919261,"lng":-77.039798},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20010","country":"US"},"formatted_address":"Washington,
+        DC 20010","location":{"lat":38.932711,"lng":-77.030248},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20011","country":"US"},"formatted_address":"Washington,
+        DC 20011","location":{"lat":38.95261,"lng":-77.017898},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20012","country":"US"},"formatted_address":"Washington,
+        DC 20012","location":{"lat":38.980231,"lng":-77.026298},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20015","country":"US"},"formatted_address":"Washington,
+        DC 20015","location":{"lat":38.96926,"lng":-77.070949},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20016","country":"US"},"formatted_address":"Washington,
+        DC 20016","location":{"lat":38.93826,"lng":-77.091149},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20017","country":"US"},"formatted_address":"Washington,
+        DC 20017","location":{"lat":38.93846,"lng":-76.993068},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20018","country":"US"},"formatted_address":"Washington,
+        DC 20018","location":{"lat":38.93056,"lng":-76.977953},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20019","country":"US"},"formatted_address":"Washington,
+        DC 20019","location":{"lat":38.891561,"lng":-76.939396},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20020","country":"US"},"formatted_address":"Washington,
+        DC 20020","location":{"lat":38.85761,"lng":-76.971547},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20024","country":"US"},"formatted_address":"Washington,
+        DC 20024","location":{"lat":38.876494,"lng":-77.022948},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20032","country":"US"},"formatted_address":"Washington,
+        DC 20032","location":{"lat":38.8368,"lng":-76.997697},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20036","country":"US"},"formatted_address":"Washington,
+        DC 20036","location":{"lat":38.907017,"lng":-77.041569},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20037","country":"US"},"formatted_address":"Washington,
+        DC 20037","location":{"lat":38.898918,"lng":-77.055446},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20052","country":"US"},"formatted_address":"Washington,
+        DC 20052","location":{"lat":38.900126,"lng":-77.046981},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20057","country":"US"},"formatted_address":"Washington,
+        DC 20057","location":{"lat":38.909123,"lng":-77.075774},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20059","country":"US"},"formatted_address":"Washington,
+        DC 20059","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20064","country":"US"},"formatted_address":"Washington,
+        DC 20064","location":{"lat":38.933161,"lng":-76.996348},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20070","country":"US"},"formatted_address":"Washington,
+        DC 20070","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20071","country":"US"},"formatted_address":"Washington,
+        DC 20071","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20204","country":"US"},"formatted_address":"Washington,
+        DC 20204","location":{"lat":38.885559,"lng":-77.014429},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20213","country":"US"},"formatted_address":"Washington,
+        DC 20213","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20230","country":"US"},"formatted_address":"Washington,
+        DC 20230","location":{"lat":38.893794,"lng":-77.032798},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20239","country":"US"},"formatted_address":"Washington,
+        DC 20239","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20240","country":"US"},"formatted_address":"Washington,
+        DC 20240","location":{"lat":38.894456,"lng":-77.042605},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20242","country":"US"},"formatted_address":"Washington,
+        DC 20242","location":{"lat":38.867812,"lng":-77.028948},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20250","country":"US"},"formatted_address":"Washington,
+        DC 20250","location":{"lat":38.887323,"lng":-77.03274},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20260","country":"US"},"formatted_address":"Washington,
+        DC 20260","location":{"lat":38.88367,"lng":-77.024998},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20265","country":"US"},"formatted_address":"Washington,
+        DC 20265","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20301","country":"US"},"formatted_address":"Washington,
+        DC 20301","location":{"lat":38.889357,"lng":-77.031113},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20306","country":"US"},"formatted_address":"Washington,
+        DC 20306","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20315","country":"US"},"formatted_address":"Washington,
+        DC 20315","location":{"lat":38.928861,"lng":-77.017948},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20317","country":"US"},"formatted_address":"Washington,
+        DC 20317","location":{"lat":38.934852,"lng":-77.014277},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20319","country":"US"},"formatted_address":"Washington,
+        DC 20319","location":{"lat":38.866745,"lng":-77.016556},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20332","country":"US"},"formatted_address":"Washington,
+        DC 20332","location":{"lat":38.834563,"lng":-77.015848},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20336","country":"US"},"formatted_address":"Washington,
+        DC 20336","location":{"lat":38.860415,"lng":-77.022545},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20340","country":"US"},"formatted_address":"Washington,
+        DC 20340","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20373","country":"US"},"formatted_address":"Washington,
+        DC 20373","location":{"lat":38.858625,"lng":-77.007865},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20375","country":"US"},"formatted_address":"Washington,
+        DC 20375","location":{"lat":38.826163,"lng":-77.017448},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20393","country":"US"},"formatted_address":"Washington,
+        DC 20393","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20406","country":"US"},"formatted_address":"Washington,
+        DC 20406","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20410","country":"US"},"formatted_address":"Washington,
+        DC 20410","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20418","country":"US"},"formatted_address":"Washington,
+        DC 20418","location":{"lat":38.8928,"lng":-77.047764},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20422","country":"US"},"formatted_address":"Washington,
+        DC 20422","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20423","country":"US"},"formatted_address":"Washington,
+        DC 20423","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20437","country":"US"},"formatted_address":"Washington,
+        DC 20437","location":{"lat":38.902761,"lng":-77.048499},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20440","country":"US"},"formatted_address":"Washington,
+        DC 20440","location":{"lat":38.913911,"lng":-77.045349},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20447","country":"US"},"formatted_address":"Washington,
+        DC 20447","location":{"lat":38.884712,"lng":-77.025198},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20533","country":"US"},"formatted_address":"Washington,
+        DC 20533","location":{"lat":38.901102,"lng":-77.032591},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20534","country":"US"},"formatted_address":"Washington,
+        DC 20534","location":{"lat":38.894075,"lng":-77.01254},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20537","country":"US"},"formatted_address":"Washington,
+        DC 20537","location":{"lat":38.894097,"lng":-77.025133},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20546","country":"US"},"formatted_address":"Washington,
+        DC 20546","location":{"lat":38.890976,"lng":-77.021092},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20547","country":"US"},"formatted_address":"Washington,
+        DC 20547","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20550","country":"US"},"formatted_address":"Washington,
+        DC 20550","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20551","country":"US"},"formatted_address":"Washington,
+        DC 20551","location":{"lat":38.892802,"lng":-77.0458},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20554","country":"US"},"formatted_address":"Washington,
+        DC 20554","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20560","country":"US"},"formatted_address":"Washington,
+        DC 20560","location":{"lat":38.888232,"lng":-77.026003},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20565","country":"US"},"formatted_address":"Washington,
+        DC 20565","location":{"lat":38.891941,"lng":-77.018853},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20566","country":"US"},"formatted_address":"Washington,
+        DC 20566","location":{"lat":38.897074,"lng":-77.05535},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20575","country":"US"},"formatted_address":"Washington,
+        DC 20575","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20576","country":"US"},"formatted_address":"Washington,
+        DC 20576","location":{"lat":38.893662,"lng":-77.023592},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20577","country":"US"},"formatted_address":"Washington,
+        DC 20577","location":{"lat":38.900758,"lng":-77.034455},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20585","country":"US"},"formatted_address":"Washington,
+        DC 20585","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20593","country":"US"},"formatted_address":"Washington,
+        DC 20593","location":{"lat":38.866759,"lng":-77.01016},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20013","country":"US"},"formatted_address":"Washington,
+        DC 20013","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20026","country":"US"},"formatted_address":"Washington,
+        DC 20026","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20029","country":"US"},"formatted_address":"Washington,
+        DC 20029","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20030","country":"US"},"formatted_address":"Washington,
+        DC 20030","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20033","country":"US"},"formatted_address":"Washington,
+        DC 20033","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20035","country":"US"},"formatted_address":"Washington,
+        DC 20035","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20038","country":"US"},"formatted_address":"Washington,
+        DC 20038","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20039","country":"US"},"formatted_address":"Washington,
+        DC 20039","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20040","country":"US"},"formatted_address":"Washington,
+        DC 20040","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20041","country":"US"},"formatted_address":"Washington,
+        DC 20041","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20042","country":"US"},"formatted_address":"Washington,
+        DC 20042","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20043","country":"US"},"formatted_address":"Washington,
+        DC 20043","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20044","country":"US"},"formatted_address":"Washington,
+        DC 20044","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20045","country":"US"},"formatted_address":"Washington,
+        DC 20045","location":{"lat":38.896599,"lng":-77.0319},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20046","country":"US"},"formatted_address":"Washington,
+        DC 20046","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20047","country":"US"},"formatted_address":"Washington,
+        DC 20047","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20049","country":"US"},"formatted_address":"Washington,
+        DC 20049","location":{"lat":38.895911,"lng":-77.020998},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20050","country":"US"},"formatted_address":"Washington,
+        DC 20050","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20051","country":"US"},"formatted_address":"Washington,
+        DC 20051","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20053","country":"US"},"formatted_address":"Washington,
+        DC 20053","location":{"lat":38.884109,"lng":-77.011231},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20055","country":"US"},"formatted_address":"Washington,
+        DC 20055","location":{"lat":38.901633,"lng":-77.020959},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20056","country":"US"},"formatted_address":"Washington,
+        DC 20056","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20058","country":"US"},"formatted_address":"Washington,
+        DC 20058","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20060","country":"US"},"formatted_address":"Washington,
+        DC 20060","location":{"lat":38.918011,"lng":-77.020398},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20061","country":"US"},"formatted_address":"Washington,
+        DC 20061","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20062","country":"US"},"formatted_address":"Washington,
+        DC 20062","location":{"lat":38.900009,"lng":-77.036948},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20063","country":"US"},"formatted_address":"Washington,
+        DC 20063","location":{"lat":38.905317,"lng":-77.046645},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20065","country":"US"},"formatted_address":"Washington,
+        DC 20065","location":{"lat":38.883412,"lng":-77.028198},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20066","country":"US"},"formatted_address":"Washington,
+        DC 20066","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20067","country":"US"},"formatted_address":"Washington,
+        DC 20067","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20068","country":"US"},"formatted_address":"Washington,
+        DC 20068","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20069","country":"US"},"formatted_address":"Washington,
+        DC 20069","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20073","country":"US"},"formatted_address":"Washington,
+        DC 20073","location":{"lat":38.897011,"lng":-77.025098},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20074","country":"US"},"formatted_address":"Washington,
+        DC 20074","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20075","country":"US"},"formatted_address":"Washington,
+        DC 20075","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20076","country":"US"},"formatted_address":"Washington,
+        DC 20076","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20077","country":"US"},"formatted_address":"Washington,
+        DC 20077","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20078","country":"US"},"formatted_address":"Washington,
+        DC 20078","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20080","country":"US"},"formatted_address":"Washington,
+        DC 20080","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20081","country":"US"},"formatted_address":"Washington,
+        DC 20081","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20082","country":"US"},"formatted_address":"Washington,
+        DC 20082","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20088","country":"US"},"formatted_address":"Washington,
+        DC 20088","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20090","country":"US"},"formatted_address":"Washington,
+        DC 20090","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20091","country":"US"},"formatted_address":"Washington,
+        DC 20091","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20097","country":"US"},"formatted_address":"Washington,
+        DC 20097","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20098","country":"US"},"formatted_address":"Washington,
+        DC 20098","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20099","country":"US"},"formatted_address":"Washington,
+        DC 20099","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20201","country":"US"},"formatted_address":"Washington,
+        DC 20201","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20202","country":"US"},"formatted_address":"Washington,
+        DC 20202","location":{"lat":38.887071,"lng":-77.02101},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20203","country":"US"},"formatted_address":"Washington,
+        DC 20203","location":{"lat":38.905317,"lng":-77.046645},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20206","country":"US"},"formatted_address":"Washington,
+        DC 20206","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20207","country":"US"},"formatted_address":"Washington,
+        DC 20207","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20208","country":"US"},"formatted_address":"Washington,
+        DC 20208","location":{"lat":38.896611,"lng":-77.011748},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20210","country":"US"},"formatted_address":"Washington,
+        DC 20210","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20211","country":"US"},"formatted_address":"Washington,
+        DC 20211","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20212","country":"US"},"formatted_address":"Washington,
+        DC 20212","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20214","country":"US"},"formatted_address":"Washington,
+        DC 20214","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20215","country":"US"},"formatted_address":"Washington,
+        DC 20215","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20216","country":"US"},"formatted_address":"Washington,
+        DC 20216","location":{"lat":38.891911,"lng":-77.014098},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20217","country":"US"},"formatted_address":"Washington,
+        DC 20217","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20218","country":"US"},"formatted_address":"Washington,
+        DC 20218","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20219","country":"US"},"formatted_address":"Washington,
+        DC 20219","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20220","country":"US"},"formatted_address":"Washington,
+        DC 20220","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20221","country":"US"},"formatted_address":"Washington,
+        DC 20221","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20222","country":"US"},"formatted_address":"Washington,
+        DC 20222","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20223","country":"US"},"formatted_address":"Washington,
+        DC 20223","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20224","country":"US"},"formatted_address":"Washington,
+        DC 20224","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20226","country":"US"},"formatted_address":"Washington,
+        DC 20226","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20227","country":"US"},"formatted_address":"Washington,
+        DC 20227","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20228","country":"US"},"formatted_address":"Washington,
+        DC 20228","location":{"lat":38.886413,"lng":-77.03024},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20229","country":"US"},"formatted_address":"Washington,
+        DC 20229","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20231","country":"US"},"formatted_address":"Washington,
+        DC 20231","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20232","country":"US"},"formatted_address":"Washington,
+        DC 20232","location":{"lat":38.900561,"lng":-77.039099},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20233","country":"US"},"formatted_address":"Washington,
+        DC 20233","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20235","country":"US"},"formatted_address":"Washington,
+        DC 20235","location":{"lat":38.915361,"lng":-77.057199},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20238","country":"US"},"formatted_address":"Washington,
+        DC 20238","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20241","country":"US"},"formatted_address":"Washington,
+        DC 20241","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20244","country":"US"},"formatted_address":"Washington,
+        DC 20244","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20245","country":"US"},"formatted_address":"Washington,
+        DC 20245","location":{"lat":38.89334,"lng":-77.04446},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20251","country":"US"},"formatted_address":"Washington,
+        DC 20251","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20254","country":"US"},"formatted_address":"Washington,
+        DC 20254","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20261","country":"US"},"formatted_address":"Washington,
+        DC 20261","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20262","country":"US"},"formatted_address":"Washington,
+        DC 20262","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20266","country":"US"},"formatted_address":"Washington,
+        DC 20266","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20268","country":"US"},"formatted_address":"Washington,
+        DC 20268","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20270","country":"US"},"formatted_address":"Washington,
+        DC 20270","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20277","country":"US"},"formatted_address":"Washington,
+        DC 20277","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20289","country":"US"},"formatted_address":"Washington,
+        DC 20289","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20299","country":"US"},"formatted_address":"Washington,
+        DC 20299","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20303","country":"US"},"formatted_address":"Washington,
+        DC 20303","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20307","country":"US"},"formatted_address":"Washington,
+        DC 20307","location":{"lat":38.974772,"lng":-77.031354},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20310","country":"US"},"formatted_address":"Washington,
+        DC 20310","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20314","country":"US"},"formatted_address":"Washington,
+        DC 20314","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20318","country":"US"},"formatted_address":"Washington,
+        DC 20318","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20330","country":"US"},"formatted_address":"Washington,
+        DC 20330","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20337","country":"US"},"formatted_address":"Washington,
+        DC 20337","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20338","country":"US"},"formatted_address":"Washington,
+        DC 20338","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20350","country":"US"},"formatted_address":"Washington,
+        DC 20350","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20370","country":"US"},"formatted_address":"Washington,
+        DC 20370","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20372","country":"US"},"formatted_address":"Washington,
+        DC 20372","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20374","country":"US"},"formatted_address":"Washington,
+        DC 20374","location":{"lat":38.855522,"lng":-77.002197},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20380","country":"US"},"formatted_address":"Washington,
+        DC 20380","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20388","country":"US"},"formatted_address":"Washington,
+        DC 20388","location":{"lat":38.872553,"lng":-76.996605},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20389","country":"US"},"formatted_address":"Washington,
+        DC 20389","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20390","country":"US"},"formatted_address":"Washington,
+        DC 20390","location":{"lat":38.879019,"lng":-76.993696},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20391","country":"US"},"formatted_address":"Washington,
+        DC 20391","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20392","country":"US"},"formatted_address":"Washington,
+        DC 20392","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20394","country":"US"},"formatted_address":"Washington,
+        DC 20394","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20395","country":"US"},"formatted_address":"Washington,
+        DC 20395","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20398","country":"US"},"formatted_address":"Washington,
+        DC 20398","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20401","country":"US"},"formatted_address":"Washington,
+        DC 20401","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20402","country":"US"},"formatted_address":"Washington,
+        DC 20402","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20403","country":"US"},"formatted_address":"Washington,
+        DC 20403","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20404","country":"US"},"formatted_address":"Washington,
+        DC 20404","location":{"lat":38.899161,"lng":-77.008948},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20405","country":"US"},"formatted_address":"Washington,
+        DC 20405","location":{"lat":38.896377,"lng":-77.042588},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20407","country":"US"},"formatted_address":"Washington,
+        DC 20407","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20408","country":"US"},"formatted_address":"Washington,
+        DC 20408","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20409","country":"US"},"formatted_address":"Washington,
+        DC 20409","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20411","country":"US"},"formatted_address":"Washington,
+        DC 20411","location":{"lat":38.883962,"lng":-77.022098},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20412","country":"US"},"formatted_address":"Washington,
+        DC 20412","location":{"lat":38.895261,"lng":-77.022098},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20413","country":"US"},"formatted_address":"Washington,
+        DC 20413","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20414","country":"US"},"formatted_address":"Washington,
+        DC 20414","location":{"lat":38.883962,"lng":-77.022098},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20415","country":"US"},"formatted_address":"Washington,
+        DC 20415","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20416","country":"US"},"formatted_address":"Washington,
+        DC 20416","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20419","country":"US"},"formatted_address":"Washington,
+        DC 20419","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20420","country":"US"},"formatted_address":"Washington,
+        DC 20420","location":{"lat":38.903461,"lng":-77.027648},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20421","country":"US"},"formatted_address":"Washington,
+        DC 20421","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20424","country":"US"},"formatted_address":"Washington,
+        DC 20424","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20425","country":"US"},"formatted_address":"Washington,
+        DC 20425","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20426","country":"US"},"formatted_address":"Washington,
+        DC 20426","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20427","country":"US"},"formatted_address":"Washington,
+        DC 20427","location":{"lat":38.902083,"lng":-77.047573},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20428","country":"US"},"formatted_address":"Washington,
+        DC 20428","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20429","country":"US"},"formatted_address":"Washington,
+        DC 20429","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20431","country":"US"},"formatted_address":"Washington,
+        DC 20431","location":{"lat":38.898618,"lng":-77.042753},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20433","country":"US"},"formatted_address":"Washington,
+        DC 20433","location":{"lat":38.899996,"lng":-77.041976},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20434","country":"US"},"formatted_address":"Washington,
+        DC 20434","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20435","country":"US"},"formatted_address":"Washington,
+        DC 20435","location":{"lat":38.899399,"lng":-77.040319},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20436","country":"US"},"formatted_address":"Washington,
+        DC 20436","location":{"lat":38.895927,"lng":-77.021068},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20439","country":"US"},"formatted_address":"Washington,
+        DC 20439","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20441","country":"US"},"formatted_address":"Washington,
+        DC 20441","location":{"lat":38.923861,"lng":-77.036349},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20442","country":"US"},"formatted_address":"Washington,
+        DC 20442","location":{"lat":38.895977,"lng":-77.017668},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20444","country":"US"},"formatted_address":"Washington,
+        DC 20444","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20451","country":"US"},"formatted_address":"Washington,
+        DC 20451","location":{"lat":38.897711,"lng":-77.044449},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20453","country":"US"},"formatted_address":"Washington,
+        DC 20453","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20456","country":"US"},"formatted_address":"Washington,
+        DC 20456","location":{"lat":38.898111,"lng":-77.040149},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20460","country":"US"},"formatted_address":"Washington,
+        DC 20460","location":{"lat":38.876362,"lng":-77.018798},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20463","country":"US"},"formatted_address":"Washington,
+        DC 20463","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20468","country":"US"},"formatted_address":"Washington,
+        DC 20468","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20469","country":"US"},"formatted_address":"Washington,
+        DC 20469","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20531","country":"US"},"formatted_address":"Washington,
+        DC 20531","location":{"lat":38.893761,"lng":-77.021848},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20532","country":"US"},"formatted_address":"Washington,
+        DC 20532","location":{"lat":38.904486,"lng":-77.017291},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20535","country":"US"},"formatted_address":"Washington,
+        DC 20535","location":{"lat":38.894467,"lng":-77.024844},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20536","country":"US"},"formatted_address":"Washington,
+        DC 20536","location":{"lat":38.901211,"lng":-77.016948},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20538","country":"US"},"formatted_address":"Washington,
+        DC 20538","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20539","country":"US"},"formatted_address":"Washington,
+        DC 20539","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20540","country":"US"},"formatted_address":"Washington,
+        DC 20540","location":{"lat":38.887405,"lng":-77.004663},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20541","country":"US"},"formatted_address":"Washington,
+        DC 20541","location":{"lat":38.887405,"lng":-77.004663},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20542","country":"US"},"formatted_address":"Washington,
+        DC 20542","location":{"lat":38.940761,"lng":-77.028348},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20543","country":"US"},"formatted_address":"Washington,
+        DC 20543","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20544","country":"US"},"formatted_address":"Washington,
+        DC 20544","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20548","country":"US"},"formatted_address":"Washington,
+        DC 20548","location":{"lat":38.898111,"lng":-77.017698},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20549","country":"US"},"formatted_address":"Washington,
+        DC 20549","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20552","country":"US"},"formatted_address":"Washington,
+        DC 20552","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20553","country":"US"},"formatted_address":"Washington,
+        DC 20553","location":{"lat":38.887333,"lng":-77.023118},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20555","country":"US"},"formatted_address":"Washington,
+        DC 20555","location":{"lat":38.900011,"lng":-77.040149},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20557","country":"US"},"formatted_address":"Washington,
+        DC 20557","location":{"lat":38.887405,"lng":-77.004663},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20558","country":"US"},"formatted_address":"Washington,
+        DC 20558","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20559","country":"US"},"formatted_address":"Washington,
+        DC 20559","location":{"lat":38.887405,"lng":-77.004663},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20570","country":"US"},"formatted_address":"Washington,
+        DC 20570","location":{"lat":38.899061,"lng":-77.040149},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20571","country":"US"},"formatted_address":"Washington,
+        DC 20571","location":{"lat":38.900559,"lng":-77.034554},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20572","country":"US"},"formatted_address":"Washington,
+        DC 20572","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20573","country":"US"},"formatted_address":"Washington,
+        DC 20573","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20578","country":"US"},"formatted_address":"Washington,
+        DC 20578","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20579","country":"US"},"formatted_address":"Washington,
+        DC 20579","location":{"lat":38.904311,"lng":-77.044649},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20580","country":"US"},"formatted_address":"Washington,
+        DC 20580","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20581","country":"US"},"formatted_address":"Washington,
+        DC 20581","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20586","country":"US"},"formatted_address":"Washington,
+        DC 20586","location":{"lat":38.902211,"lng":-77.047399},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20590","country":"US"},"formatted_address":"Washington,
+        DC 20590","location":{"lat":38.883962,"lng":-77.022098},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20591","country":"US"},"formatted_address":"Washington,
+        DC 20591","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20594","country":"US"},"formatted_address":"Washington,
+        DC 20594","location":{"lat":38.88494,"lng":-77.018372},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20597","country":"US"},"formatted_address":"Washington,
+        DC 20597","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20599","country":"US"},"formatted_address":"Washington,
+        DC 20599","location":{"lat":38.893311,"lng":-77.014647},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20500","country":"US"},"formatted_address":"Washington,
+        DC 20500","location":{"lat":38.916778,"lng":-77.011365},"accuracy":0.4,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20528","country":"US"},"formatted_address":"Washington,
+        DC 20528","location":{"lat":38.916778,"lng":-77.011365},"accuracy":0.35,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20529","country":"US"},"formatted_address":"Washington,
+        DC 20529","location":{"lat":38.916778,"lng":-77.011365},"accuracy":0.35,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20000","country":"US"},"formatted_address":"Washington,
+        DC 20000","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.35,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20355","country":"US"},"formatted_address":"Washington,
+        DC 20355","location":{"lat":38.8951,"lng":-77.0369},"accuracy":0.35,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20417","country":"US"},"formatted_address":"Washington,
+        DC 20417","location":{"lat":38.907,"lng":-77.0058},"accuracy":0.35,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20007","country":"US"},"formatted_address":"Washington,
+        DC 20007","location":{"lat":38.904834,"lng":-77.062478},"accuracy":0.35,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20008","country":"US"},"formatted_address":"Washington,
+        DC 20008","location":{"lat":38.936222,"lng":-77.065533},"accuracy":0.35,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20010","country":"US"},"formatted_address":"Washington,
+        DC 20010","location":{"lat":38.933367,"lng":-77.030312},"accuracy":0.35,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20011","country":"US"},"formatted_address":"Washington,
+        DC 20011","location":{"lat":38.961222,"lng":-77.027477},"accuracy":0.35,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20017","country":"US"},"formatted_address":"Washington,
+        DC 20017","location":{"lat":38.932889,"lng":-76.984142},"accuracy":0.35,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20019","country":"US"},"formatted_address":"Washington,
+        DC 20019","location":{"lat":38.895112,"lng":-76.948863},"accuracy":0.35,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20032","country":"US"},"formatted_address":"Washington,
+        DC 20032","location":{"lat":38.842891,"lng":-77.000254},"accuracy":0.35,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20001","country":"US"},"formatted_address":"Washington,
+        DC 20001","location":{"lat":38.916778,"lng":-77.011365},"accuracy":0.3,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20020","country":"US"},"formatted_address":"Washington,
+        DC 20020","location":{"lat":38.866501,"lng":-76.983864},"accuracy":0.3,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20237","country":"US"},"formatted_address":"Washington,
+        DC 20237","location":{"lat":38.916778,"lng":-77.011365},"accuracy":0.3,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20376","country":"US"},"formatted_address":"Washington,
+        DC 20376","location":{"lat":38.916778,"lng":-77.011365},"accuracy":0.3,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20014","country":"US"},"formatted_address":"Washington,
+        DC 20014","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20021","country":"US"},"formatted_address":"Washington,
+        DC 20021","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20022","country":"US"},"formatted_address":"Washington,
+        DC 20022","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20023","country":"US"},"formatted_address":"Washington,
+        DC 20023","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20025","country":"US"},"formatted_address":"Washington,
+        DC 20025","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20027","country":"US"},"formatted_address":"Washington,
+        DC 20027","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20028","country":"US"},"formatted_address":"Washington,
+        DC 20028","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20031","country":"US"},"formatted_address":"Washington,
+        DC 20031","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20034","country":"US"},"formatted_address":"Washington,
+        DC 20034","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20048","country":"US"},"formatted_address":"Washington,
+        DC 20048","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20054","country":"US"},"formatted_address":"Washington,
+        DC 20054","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20072","country":"US"},"formatted_address":"Washington,
+        DC 20072","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20079","country":"US"},"formatted_address":"Washington,
+        DC 20079","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20083","country":"US"},"formatted_address":"Washington,
+        DC 20083","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20084","country":"US"},"formatted_address":"Washington,
+        DC 20084","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20085","country":"US"},"formatted_address":"Washington,
+        DC 20085","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20086","country":"US"},"formatted_address":"Washington,
+        DC 20086","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20087","country":"US"},"formatted_address":"Washington,
+        DC 20087","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20089","country":"US"},"formatted_address":"Washington,
+        DC 20089","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20092","country":"US"},"formatted_address":"Washington,
+        DC 20092","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20093","country":"US"},"formatted_address":"Washington,
+        DC 20093","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20094","country":"US"},"formatted_address":"Washington,
+        DC 20094","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"20095","country":"US"},"formatted_address":"Washington,
+        DC 20095","location":{"lat":38.895112,"lng":-77.036366},"accuracy":0.25,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"56901","country":"US"},"formatted_address":"Washington,
+        DC 56901","location":{"lat":38.8952,"lng":-77.0365},"accuracy":0.15,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"56915","country":"US"},"formatted_address":"Washington,
+        DC 56915","location":{"lat":38.8952,"lng":-77.0365},"accuracy":0.15,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"56920","country":"US"},"formatted_address":"Washington,
+        DC 56920","location":{"lat":38.8952,"lng":-77.0365},"accuracy":0.15,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"56933","country":"US"},"formatted_address":"Washington,
+        DC 56933","location":{"lat":38.8952,"lng":-77.0365},"accuracy":0.15,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"56944","country":"US"},"formatted_address":"Washington,
+        DC 56944","location":{"lat":38.8952,"lng":-77.0365},"accuracy":0.15,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Washington","county":"District
+        of Columbia","state":"DC","zip":"56972","country":"US"},"formatted_address":"Washington,
+        DC 56972","location":{"lat":38.8951,"lng":-77.0364},"accuracy":0.15,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"}],"_warnings":["There is a newer API version
+        available, please consider upgrading to v1.7. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}'
+  recorded_at: Mon, 11 Apr 2022 15:55:04 GMT
 - request:
     method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=13%20Rue%20Yves%20Toudic,%20Paris,%2075010
     body:
       encoding: US-ASCII
       string: ''
@@ -582,34 +1465,30 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sat, 01 Dec 2018 01:09:06 GMT
       Server:
-      - Apache/2.4.29 (Ubuntu)
+      - nginx
+      Date:
+      - Mon, 11 Apr 2022 15:55:05 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
     body:
-      encoding: UTF-8
-      string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:06 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjc0MTgxNDksImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6OTEyMjcwNzQ1LCJib3VuZGluZ2JveCI6WyI0OC44NzAwNzk1IiwiNDguODcwMTc5NSIsIjIuMzYzNDQxMyIsIjIuMzYzNTQxMyJdLCJsYXQiOiI0OC44NzAxMjk1IiwibG9uIjoiMi4zNjM0OTEzIiwiZGlzcGxheV9uYW1lIjoiMTMsIFJ1ZSBZdmVzIFRvdWRpYywgUXVhcnRpZXIgZGUgbGEgUG9ydGUtU2FpbnQtTWFydGluLCAxMHRoIEFycm9uZGlzc2VtZW50LCBQYXJpcywgSWxlLWRlLUZyYW5jZSwgTWV0cm9wb2xpdGFuIEZyYW5jZSwgNzUwMTAsIEZyYW5jZSIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoiaG91c2UiLCJpbXBvcnRhbmNlIjowLjYzMDk5OTk5OTk5OTk5OTksImFkZHJlc3MiOnsiaG91c2VfbnVtYmVyIjoiMTMiLCJyb2FkIjoiUnVlIFl2ZXMgVG91ZGljIiwiY2l0eV9ibG9jayI6IlF1YXJ0aWVyIGRlIGxhIFBvcnRlLVNhaW50LU1hcnRpbiIsInN1YnVyYiI6IjEwdGggQXJyb25kaXNzZW1lbnQiLCJjaXR5X2Rpc3RyaWN0IjoiUGFyaXMiLCJjaXR5IjoiUGFyaXMiLCJjb3VudHkiOiJQYXJpcyIsInN0YXRlIjoiSWxlLWRlLUZyYW5jZSIsInJlZ2lvbiI6Ik1ldHJvcG9saXRhbiBGcmFuY2UiLCJwb3N0Y29kZSI6Ijc1MDEwIiwiY291bnRyeSI6IkZyYW5jZSIsImNvdW50cnlfY29kZSI6ImZyIn19XQ==
+  recorded_at: Mon, 11 Apr 2022 15:55:05 GMT
 - request:
     method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1600%20Fake%20Ave,%20Washington,%20DC,%2020500
     body:
       encoding: US-ASCII
       string: ''
@@ -625,34 +1504,29 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sat, 01 Dec 2018 01:09:07 GMT
       Server:
-      - Apache/2.4.29 (Ubuntu)
+      - nginx
+      Date:
+      - Mon, 11 Apr 2022 15:55:05 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
       - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
     body:
       encoding: UTF-8
       string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:07 GMT
+  recorded_at: Mon, 11 Apr 2022 15:55:05 GMT
 - request:
     method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
+    uri: http://api.geocod.io/v1.6/geocode?api_key=<api-key>&q=1%20Infinite%20Loop,%20Cupertino,%20CA,%2095014
     body:
       encoding: US-ASCII
       string: ''
@@ -668,115 +1542,54 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Cache-Control:
+      - no-cache, private
       Date:
-      - Sat, 01 Dec 2018 01:09:07 GMT
-      Server:
-      - Apache/2.4.29 (Ubuntu)
+      - Mon, 11 Apr 2022 15:55:06 GMT
+      X-Billable-Lookups-Count:
+      - '1'
+      X-Billable-Fields-Count:
+      - '0'
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
-      - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
-    body:
-      encoding: UTF-8
-      string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:08 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=99%20Fictitious%20St,%20Westminster,%20London%20SW1A%202AA
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 01 Dec 2018 01:09:08 GMT
+      - GET, POST
+      Access-Control-Allow-Headers:
+      - Content-Type, User-Agent
+      Access-Control-Expose-Headers:
+      - Request-Handler
+      Request-Handler:
+      - api200
       Server:
-      - Apache/2.4.29 (Ubuntu)
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
+      - Unicorns with magic wands (https://www.geocod.io)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Robots-Tag:
+      - none
+      X-Ratelimit-Remaining:
+      - '996'
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Period:
+      - '60'
       Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
+      - close
     body:
       encoding: UTF-8
-      string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:08 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=99%20Fictitious%20St,%20Westminster,%20London%20SW1A%202AA
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Sat, 01 Dec 2018 01:09:09 GMT
-      Server:
-      - Apache/2.4.29 (Ubuntu)
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Expect-Ct:
-      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
-      Upgrade:
-      - h2
-      Connection:
-      - Upgrade, close
-      Transfer-Encoding:
-      - chunked
-      Content-Type:
-      - application/json; charset=UTF-8
-    body:
-      encoding: UTF-8
-      string: "[]"
-    http_version: 
-  recorded_at: Sat, 01 Dec 2018 01:09:09 GMT
-recorded_with: VCR 4.0.0
+      string: '{"input":{"address_components":{"number":"1","street":"Infinite","suffix":"Loop","formatted_street":"Infinite
+        Loop","city":"Cupertino","state":"CA","zip":"95014","country":"US"},"formatted_address":"1
+        Infinite Loop, Cupertino, CA 95014"},"results":[{"address_components":{"number":"1","street":"Infinite","suffix":"Loop","formatted_street":"Infinite
+        Loop","city":"Cupertino","county":"Santa Clara County","state":"CA","zip":"95014","country":"US"},"formatted_address":"1
+        Infinite Loop, Cupertino, CA 95014","location":{"lat":37.331524,"lng":-122.030231},"accuracy":1,"accuracy_type":"rooftop","source":"City
+        of Cupertino"}],"_warnings":["There is a newer API version available, please
+        consider upgrading to v1.7. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}'
+  recorded_at: Mon, 11 Apr 2022 15:55:06 GMT
+recorded_with: VCR 6.1.0
