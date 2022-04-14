@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=99%20Fictitious%20St,%20Westminster,%20London%20SW1A%202AA
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1600%20Fake%20Ave,%20Washington,%20DC,%2020500
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 11 Apr 2022 15:55:00 GMT
+      - Thu, 14 Apr 2022 18:25:45 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -37,10 +37,10 @@ http_interactions:
     body:
       encoding: UTF-8
       string: "[]"
-  recorded_at: Mon, 11 Apr 2022 15:55:00 GMT
+  recorded_at: Thu, 14 Apr 2022 18:25:45 GMT
 - request:
     method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=122%20Mast%20Rd,%20Lee,%20NH%2003861
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=13%20Rue%20Yves%20Toudic,%20Paris,%2075010
     body:
       encoding: US-ASCII
       string: ''
@@ -59,7 +59,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 11 Apr 2022 15:55:01 GMT
+      - Thu, 14 Apr 2022 18:25:45 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -75,11 +75,50 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        W3sicGxhY2VfaWQiOjMwNzM0NTgzNiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOjI3OTI5NzI5LCJib3VuZGluZ2JveCI6WyI0My4xMzYwNjc0Mjc2NTkiLCI0My4xMzYxNjc0Mjc2NTkiLCItNzAuOTg3MzMwOTE4NzU0IiwiLTcwLjk4NzIzMDkxODc1NCJdLCJsYXQiOiI0My4xMzYxMTc0Mjc2NTkxMiIsImxvbiI6Ii03MC45ODcyODA5MTg3NTQ0MiIsImRpc3BsYXlfbmFtZSI6IjEyMiwgTWFzdCBSb2FkLCBMZWUsIFN0cmFmZm9yZCBDb3VudHksIE5ldyBIYW1wc2hpcmUsIDAzODYxLCBVbml0ZWQgU3RhdGVzIiwiY2xhc3MiOiJwbGFjZSIsInR5cGUiOiJob3VzZSIsImltcG9ydGFuY2UiOjAuNTMwOTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJob3VzZV9udW1iZXIiOiIxMjIiLCJyb2FkIjoiTWFzdCBSb2FkIiwidmlsbGFnZSI6IkxlZSIsImNvdW50eSI6IlN0cmFmZm9yZCBDb3VudHkiLCJzdGF0ZSI6Ik5ldyBIYW1wc2hpcmUiLCJwb3N0Y29kZSI6IjAzODYxIiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoxMzQ0MzIwODQsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoid2F5Iiwib3NtX2lkIjoxNDI1NDYzMDgsImJvdW5kaW5nYm94IjpbIjQzLjEzNTk2NSIsIjQzLjEzNjIxODUiLCItNzAuOTg2NDEwNyIsIi03MC45ODU1MTM2Il0sImxhdCI6IjQzLjEzNjEwMTIiLCJsb24iOiItNzAuOTg1ODM2ODM5NDgxMTgiLCJkaXNwbGF5X25hbWUiOiIxMjIsIE1hc3QgUm9hZCwgTGVlLCBTdHJhZmZvcmQgQ291bnR5LCBOZXcgSGFtcHNoaXJlLCAwMzg2MSwgVW5pdGVkIFN0YXRlcyIsImNsYXNzIjoiYnVpbGRpbmciLCJ0eXBlIjoieWVzIiwiaW1wb3J0YW5jZSI6MC41MzA5OTk5OTk5OTk5OTk5LCJhZGRyZXNzIjp7ImhvdXNlX251bWJlciI6IjEyMiIsInJvYWQiOiJNYXN0IFJvYWQiLCJ2aWxsYWdlIjoiTGVlIiwiY291bnR5IjoiU3RyYWZmb3JkIENvdW50eSIsInN0YXRlIjoiTmV3IEhhbXBzaGlyZSIsInBvc3Rjb2RlIjoiMDM4NjEiLCJjb3VudHJ5IjoiVW5pdGVkIFN0YXRlcyIsImNvdW50cnlfY29kZSI6InVzIn19XQ==
-  recorded_at: Mon, 11 Apr 2022 15:55:01 GMT
+        W3sicGxhY2VfaWQiOjc0MTgxNDksImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6OTEyMjcwNzQ1LCJib3VuZGluZ2JveCI6WyI0OC44NzAwNzk1IiwiNDguODcwMTc5NSIsIjIuMzYzNDQxMyIsIjIuMzYzNTQxMyJdLCJsYXQiOiI0OC44NzAxMjk1IiwibG9uIjoiMi4zNjM0OTEzIiwiZGlzcGxheV9uYW1lIjoiMTMsIFJ1ZSBZdmVzIFRvdWRpYywgUXVhcnRpZXIgZGUgbGEgUG9ydGUtU2FpbnQtTWFydGluLCAxMHRoIEFycm9uZGlzc2VtZW50LCBQYXJpcywgSWxlLWRlLUZyYW5jZSwgTWV0cm9wb2xpdGFuIEZyYW5jZSwgNzUwMTAsIEZyYW5jZSIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoiaG91c2UiLCJpbXBvcnRhbmNlIjowLjYzMDk5OTk5OTk5OTk5OTksImFkZHJlc3MiOnsiaG91c2VfbnVtYmVyIjoiMTMiLCJyb2FkIjoiUnVlIFl2ZXMgVG91ZGljIiwiY2l0eV9ibG9jayI6IlF1YXJ0aWVyIGRlIGxhIFBvcnRlLVNhaW50LU1hcnRpbiIsInN1YnVyYiI6IjEwdGggQXJyb25kaXNzZW1lbnQiLCJjaXR5X2Rpc3RyaWN0IjoiUGFyaXMiLCJjaXR5IjoiUGFyaXMiLCJjb3VudHkiOiJQYXJpcyIsInN0YXRlIjoiSWxlLWRlLUZyYW5jZSIsInJlZ2lvbiI6Ik1ldHJvcG9saXRhbiBGcmFuY2UiLCJwb3N0Y29kZSI6Ijc1MDEwIiwiY291bnRyeSI6IkZyYW5jZSIsImNvdW50cnlfY29kZSI6ImZyIn19XQ==
+  recorded_at: Thu, 14 Apr 2022 18:25:45 GMT
 - request:
     method: get
-    uri: http://api.geocod.io/v1.6/geocode?api_key=<api-key>&q=1%20Infinite%20Loop,%20Cupertino,%20CA%2095014
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Infinite%20Loop,%20Cupertino,%20CA,%2095014
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Apr 2022 18:25:46 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjEyNzA5MjMxNSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOjExNDA1NDgyOSwiYm91bmRpbmdib3giOlsiMzcuMzMxMTk1NyIsIjM3LjMzMjE2NDkiLCItMTIyLjAzMDU1NDMiLCItMTIyLjAyOTgyNDUiXSwibGF0IjoiMzcuMzMxNjY5NyIsImxvbiI6Ii0xMjIuMDMwMDk4MjAyMTU1MDIiLCJkaXNwbGF5X25hbWUiOiJJbmZpbml0ZSBMb29wIDEsIDEsIEluZmluaXRlIExvb3AsIEFwcGxlIENhbXB1cywgQ3VwZXJ0aW5vLCBTYW50YSBDbGFyYSBDb3VudHksIENhbGlmb3JuaWEsIDk1MDE0LCBVbml0ZWQgU3RhdGVzIiwiY2xhc3MiOiJvZmZpY2UiLCJ0eXBlIjoiY29tcGFueSIsImltcG9ydGFuY2UiOjAuNjMwOTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJvZmZpY2UiOiJJbmZpbml0ZSBMb29wIDEiLCJob3VzZV9udW1iZXIiOiIxIiwicm9hZCI6IkluZmluaXRlIExvb3AiLCJjb21tZXJjaWFsIjoiQXBwbGUgQ2FtcHVzIiwiY2l0eSI6IkN1cGVydGlubyIsImNvdW50eSI6IlNhbnRhIENsYXJhIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsIklTTzMxNjYtMi1sdmw0IjoiVVMtQ0EiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoxMzc1NzA2MSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoxNDI5NDc3NTA0LCJib3VuZGluZ2JveCI6WyIzNy4zMzEzNTUiLCIzNy4zMzE0NTUiLCItMTIyLjAzMDQ2ODUiLCItMTIyLjAzMDM2ODUiXSwibGF0IjoiMzcuMzMxNDA1IiwibG9uIjoiLTEyMi4wMzA0MTg1IiwiZGlzcGxheV9uYW1lIjoiQXBwbGUgSW5maW5pdGUgTG9vcCwgMSwgSW5maW5pdGUgTG9vcCwgQXBwbGUgQ2FtcHVzLCBDdXBlcnRpbm8sIFNhbnRhIENsYXJhIENvdW50eSwgQ2FsaWZvcm5pYSwgOTUwMTQsIFVuaXRlZCBTdGF0ZXMiLCJjbGFzcyI6InNob3AiLCJ0eXBlIjoiZWxlY3Ryb25pY3MiLCJpbXBvcnRhbmNlIjowLjYzMDk5OTk5OTk5OTk5OTksImFkZHJlc3MiOnsic2hvcCI6IkFwcGxlIEluZmluaXRlIExvb3AiLCJob3VzZV9udW1iZXIiOiIxIiwicm9hZCI6IkluZmluaXRlIExvb3AiLCJjb21tZXJjaWFsIjoiQXBwbGUgQ2FtcHVzIiwiY2l0eSI6IkN1cGVydGlubyIsImNvdW50eSI6IlNhbnRhIENsYXJhIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsIklTTzMxNjYtMi1sdmw0IjoiVVMtQ0EiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fV0=
+  recorded_at: Thu, 14 Apr 2022 18:25:46 GMT
+- request:
+    method: get
+    uri: http://api.geocod.io/v1.6/geocode?api_key=<api-key>&q=1%20Infinite%20Loop,%20Cupertino,%20CA,%2095014
     body:
       encoding: US-ASCII
       string: ''
@@ -102,7 +141,7 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       Date:
-      - Mon, 11 Apr 2022 15:55:01 GMT
+      - Thu, 14 Apr 2022 18:25:46 GMT
       X-Billable-Lookups-Count:
       - '1'
       X-Billable-Fields-Count:
@@ -116,7 +155,7 @@ http_interactions:
       Access-Control-Expose-Headers:
       - Request-Handler
       Request-Handler:
-      - api192
+      - api200
       Server:
       - Unicorns with magic wands (https://www.geocod.io)
       X-Frame-Options:
@@ -144,276 +183,7 @@ http_interactions:
         Infinite Loop, Cupertino, CA 95014","location":{"lat":37.331524,"lng":-122.030231},"accuracy":1,"accuracy_type":"rooftop","source":"City
         of Cupertino"}],"_warnings":["There is a newer API version available, please
         consider upgrading to v1.7. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}'
-  recorded_at: Mon, 11 Apr 2022 15:55:01 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Mon, 11 Apr 2022 15:55:01 GMT
-      Content-Type:
-      - application/json; charset=UTF-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Keep-Alive:
-      - timeout=20
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-    body:
-      encoding: UTF-8
-      string: "[]"
-  recorded_at: Mon, 11 Apr 2022 15:55:01 GMT
-- request:
-    method: get
-    uri: http://api.geocod.io/v1.6/geocode?api_key=<api-key>&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Cache-Control:
-      - no-cache, private
-      Date:
-      - Mon, 11 Apr 2022 15:55:02 GMT
-      X-Billable-Lookups-Count:
-      - '1'
-      X-Billable-Fields-Count:
-      - '0'
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, POST
-      Access-Control-Allow-Headers:
-      - Content-Type, User-Agent
-      Access-Control-Expose-Headers:
-      - Request-Handler
-      Request-Handler:
-      - api161
-      Server:
-      - Unicorns with magic wands (https://www.geocod.io)
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Content-Type-Options:
-      - nosniff
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Robots-Tag:
-      - none
-      X-Ratelimit-Remaining:
-      - '998'
-      X-Ratelimit-Limit:
-      - '1000'
-      X-Ratelimit-Period:
-      - '60'
-      Connection:
-      - close
-    body:
-      encoding: UTF-8
-      string: '{"input":{"address_components":{"number":"1","city":"Cupertino","state":"CA","zip":"95014","country":"US"},"formatted_address":"1,
-        Cupertino, CA 95014"},"results":[{"address_components":{"city":"Cupertino","county":"Santa
-        Clara County","state":"CA","zip":"95014","country":"US"},"formatted_address":"Cupertino,
-        CA 95014","location":{"lat":37.30661,"lng":-122.080628},"accuracy":0.5,"accuracy_type":"place","source":"TIGER\/Line\u00ae
-        dataset from the US Census Bureau"},{"address_components":{"city":"Cupertino","county":"Santa
-        Clara County","state":"CA","zip":"95015","country":"US"},"formatted_address":"Cupertino,
-        CA 95015","location":{"lat":37.189396,"lng":-121.705327},"accuracy":0.5,"accuracy_type":"place","source":"TIGER\/Line\u00ae
-        dataset from the US Census Bureau"},{"address_components":{"city":"Monta Vista","county":"Santa
-        Clara County","state":"CA","zip":"95014","country":"US"},"formatted_address":"Monta
-        Vista, CA 95014","location":{"lat":37.32272,"lng":-122.058017},"accuracy":0.28,"accuracy_type":"place","source":"TIGER\/Line\u00ae
-        dataset from the US Census Bureau"},{"address_components":{"city":"Rancho
-        Rinconada","county":"Santa Clara County","state":"CA","zip":"95014","country":"US"},"formatted_address":"Rancho
-        Rinconada, CA 95014","location":{"lat":37.314942,"lng":-122.003015},"accuracy":0.28,"accuracy_type":"place","source":"TIGER\/Line\u00ae
-        dataset from the US Census Bureau"}],"_warnings":["There is a newer API version
-        available, please consider upgrading to v1.7. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}'
-  recorded_at: Mon, 11 Apr 2022 15:55:02 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=13%20Rue%20Yves%20Toudic,%20Paris%2075010
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Mon, 11 Apr 2022 15:55:02 GMT
-      Content-Type:
-      - application/json; charset=UTF-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Keep-Alive:
-      - timeout=20
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        W3sicGxhY2VfaWQiOjc0MTgxNDksImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6OTEyMjcwNzQ1LCJib3VuZGluZ2JveCI6WyI0OC44NzAwNzk1IiwiNDguODcwMTc5NSIsIjIuMzYzNDQxMyIsIjIuMzYzNTQxMyJdLCJsYXQiOiI0OC44NzAxMjk1IiwibG9uIjoiMi4zNjM0OTEzIiwiZGlzcGxheV9uYW1lIjoiMTMsIFJ1ZSBZdmVzIFRvdWRpYywgUXVhcnRpZXIgZGUgbGEgUG9ydGUtU2FpbnQtTWFydGluLCAxMHRoIEFycm9uZGlzc2VtZW50LCBQYXJpcywgSWxlLWRlLUZyYW5jZSwgTWV0cm9wb2xpdGFuIEZyYW5jZSwgNzUwMTAsIEZyYW5jZSIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoiaG91c2UiLCJpbXBvcnRhbmNlIjowLjYzMDk5OTk5OTk5OTk5OTksImFkZHJlc3MiOnsiaG91c2VfbnVtYmVyIjoiMTMiLCJyb2FkIjoiUnVlIFl2ZXMgVG91ZGljIiwiY2l0eV9ibG9jayI6IlF1YXJ0aWVyIGRlIGxhIFBvcnRlLVNhaW50LU1hcnRpbiIsInN1YnVyYiI6IjEwdGggQXJyb25kaXNzZW1lbnQiLCJjaXR5X2Rpc3RyaWN0IjoiUGFyaXMiLCJjaXR5IjoiUGFyaXMiLCJjb3VudHkiOiJQYXJpcyIsInN0YXRlIjoiSWxlLWRlLUZyYW5jZSIsInJlZ2lvbiI6Ik1ldHJvcG9saXRhbiBGcmFuY2UiLCJwb3N0Y29kZSI6Ijc1MDEwIiwiY291bnRyeSI6IkZyYW5jZSIsImNvdW50cnlfY29kZSI6ImZyIn19XQ==
-  recorded_at: Mon, 11 Apr 2022 15:55:02 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Infinite%20Loop,%20Cupertino,%20CA%2095014
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Mon, 11 Apr 2022 15:55:03 GMT
-      Content-Type:
-      - application/json; charset=UTF-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Keep-Alive:
-      - timeout=20
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        W3sicGxhY2VfaWQiOjEyNzA5MjMxNSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOjExNDA1NDgyOSwiYm91bmRpbmdib3giOlsiMzcuMzMxMTk1NyIsIjM3LjMzMjE2NDkiLCItMTIyLjAzMDU1NDMiLCItMTIyLjAyOTgyNDUiXSwibGF0IjoiMzcuMzMxNjY5NyIsImxvbiI6Ii0xMjIuMDMwMDk4MjAyMTU1MDIiLCJkaXNwbGF5X25hbWUiOiJJbmZpbml0ZSBMb29wIDEsIDEsIEluZmluaXRlIExvb3AsIEFwcGxlIENhbXB1cywgQ3VwZXJ0aW5vLCBTYW50YSBDbGFyYSBDb3VudHksIENhbGlmb3JuaWEsIDk1MDE0LCBVbml0ZWQgU3RhdGVzIiwiY2xhc3MiOiJvZmZpY2UiLCJ0eXBlIjoiY29tcGFueSIsImltcG9ydGFuY2UiOjAuNjMwOTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJvZmZpY2UiOiJJbmZpbml0ZSBMb29wIDEiLCJob3VzZV9udW1iZXIiOiIxIiwicm9hZCI6IkluZmluaXRlIExvb3AiLCJjb21tZXJjaWFsIjoiQXBwbGUgQ2FtcHVzIiwiY2l0eSI6IkN1cGVydGlubyIsImNvdW50eSI6IlNhbnRhIENsYXJhIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsIklTTzMxNjYtMi1sdmw0IjoiVVMtQ0EiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoxMzc1NzA2MSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoxNDI5NDc3NTA0LCJib3VuZGluZ2JveCI6WyIzNy4zMzEzNTUiLCIzNy4zMzE0NTUiLCItMTIyLjAzMDQ2ODUiLCItMTIyLjAzMDM2ODUiXSwibGF0IjoiMzcuMzMxNDA1IiwibG9uIjoiLTEyMi4wMzA0MTg1IiwiZGlzcGxheV9uYW1lIjoiQXBwbGUgSW5maW5pdGUgTG9vcCwgMSwgSW5maW5pdGUgTG9vcCwgQXBwbGUgQ2FtcHVzLCBDdXBlcnRpbm8sIFNhbnRhIENsYXJhIENvdW50eSwgQ2FsaWZvcm5pYSwgOTUwMTQsIFVuaXRlZCBTdGF0ZXMiLCJjbGFzcyI6InNob3AiLCJ0eXBlIjoiZWxlY3Ryb25pY3MiLCJpbXBvcnRhbmNlIjowLjYzMDk5OTk5OTk5OTk5OTksImFkZHJlc3MiOnsic2hvcCI6IkFwcGxlIEluZmluaXRlIExvb3AiLCJob3VzZV9udW1iZXIiOiIxIiwicm9hZCI6IkluZmluaXRlIExvb3AiLCJjb21tZXJjaWFsIjoiQXBwbGUgQ2FtcHVzIiwiY2l0eSI6IkN1cGVydGlubyIsImNvdW50eSI6IlNhbnRhIENsYXJhIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsIklTTzMxNjYtMi1sdmw0IjoiVVMtQ0EiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fV0=
-  recorded_at: Mon, 11 Apr 2022 15:55:02 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Mon, 11 Apr 2022 15:55:03 GMT
-      Content-Type:
-      - application/json; charset=UTF-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Keep-Alive:
-      - timeout=20
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-    body:
-      encoding: UTF-8
-      string: "[]"
-  recorded_at: Mon, 11 Apr 2022 15:55:03 GMT
-- request:
-    method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Infinite%20Loop,%20Cupertino,%20CA,%2095014
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Mon, 11 Apr 2022 15:55:04 GMT
-      Content-Type:
-      - application/json; charset=UTF-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Keep-Alive:
-      - timeout=20
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - OPTIONS,GET
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        W3sicGxhY2VfaWQiOjEyNzA5MjMxNSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOjExNDA1NDgyOSwiYm91bmRpbmdib3giOlsiMzcuMzMxMTk1NyIsIjM3LjMzMjE2NDkiLCItMTIyLjAzMDU1NDMiLCItMTIyLjAyOTgyNDUiXSwibGF0IjoiMzcuMzMxNjY5NyIsImxvbiI6Ii0xMjIuMDMwMDk4MjAyMTU1MDIiLCJkaXNwbGF5X25hbWUiOiJJbmZpbml0ZSBMb29wIDEsIDEsIEluZmluaXRlIExvb3AsIEFwcGxlIENhbXB1cywgQ3VwZXJ0aW5vLCBTYW50YSBDbGFyYSBDb3VudHksIENhbGlmb3JuaWEsIDk1MDE0LCBVbml0ZWQgU3RhdGVzIiwiY2xhc3MiOiJvZmZpY2UiLCJ0eXBlIjoiY29tcGFueSIsImltcG9ydGFuY2UiOjAuNjMwOTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJvZmZpY2UiOiJJbmZpbml0ZSBMb29wIDEiLCJob3VzZV9udW1iZXIiOiIxIiwicm9hZCI6IkluZmluaXRlIExvb3AiLCJjb21tZXJjaWFsIjoiQXBwbGUgQ2FtcHVzIiwiY2l0eSI6IkN1cGVydGlubyIsImNvdW50eSI6IlNhbnRhIENsYXJhIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsIklTTzMxNjYtMi1sdmw0IjoiVVMtQ0EiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoxMzc1NzA2MSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoxNDI5NDc3NTA0LCJib3VuZGluZ2JveCI6WyIzNy4zMzEzNTUiLCIzNy4zMzE0NTUiLCItMTIyLjAzMDQ2ODUiLCItMTIyLjAzMDM2ODUiXSwibGF0IjoiMzcuMzMxNDA1IiwibG9uIjoiLTEyMi4wMzA0MTg1IiwiZGlzcGxheV9uYW1lIjoiQXBwbGUgSW5maW5pdGUgTG9vcCwgMSwgSW5maW5pdGUgTG9vcCwgQXBwbGUgQ2FtcHVzLCBDdXBlcnRpbm8sIFNhbnRhIENsYXJhIENvdW50eSwgQ2FsaWZvcm5pYSwgOTUwMTQsIFVuaXRlZCBTdGF0ZXMiLCJjbGFzcyI6InNob3AiLCJ0eXBlIjoiZWxlY3Ryb25pY3MiLCJpbXBvcnRhbmNlIjowLjYzMDk5OTk5OTk5OTk5OTksImFkZHJlc3MiOnsic2hvcCI6IkFwcGxlIEluZmluaXRlIExvb3AiLCJob3VzZV9udW1iZXIiOiIxIiwicm9hZCI6IkluZmluaXRlIExvb3AiLCJjb21tZXJjaWFsIjoiQXBwbGUgQ2FtcHVzIiwiY2l0eSI6IkN1cGVydGlubyIsImNvdW50eSI6IlNhbnRhIENsYXJhIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsIklTTzMxNjYtMi1sdmw0IjoiVVMtQ0EiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fV0=
-  recorded_at: Mon, 11 Apr 2022 15:55:04 GMT
+  recorded_at: Thu, 14 Apr 2022 18:25:46 GMT
 - request:
     method: get
     uri: http://api.geocod.io/v1.6/geocode?api_key=<api-key>&q=1600%20Fake%20Ave,%20Washington,%20DC,%2020500
@@ -439,7 +209,7 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       Date:
-      - Mon, 11 Apr 2022 15:55:04 GMT
+      - Thu, 14 Apr 2022 18:25:47 GMT
       X-Billable-Lookups-Count:
       - '1'
       X-Billable-Fields-Count:
@@ -453,7 +223,7 @@ http_interactions:
       Access-Control-Expose-Headers:
       - Request-Handler
       Request-Handler:
-      - api200
+      - api199
       Server:
       - Unicorns with magic wands (https://www.geocod.io)
       X-Frame-Options:
@@ -465,7 +235,7 @@ http_interactions:
       X-Robots-Tag:
       - none
       X-Ratelimit-Remaining:
-      - '997'
+      - '998'
       X-Ratelimit-Limit:
       - '1000'
       X-Ratelimit-Period:
@@ -1446,10 +1216,10 @@ http_interactions:
         DC 56972","location":{"lat":38.8951,"lng":-77.0364},"accuracy":0.15,"accuracy_type":"place","source":"TIGER\/Line\u00ae
         dataset from the US Census Bureau"}],"_warnings":["There is a newer API version
         available, please consider upgrading to v1.7. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}'
-  recorded_at: Mon, 11 Apr 2022 15:55:04 GMT
+  recorded_at: Thu, 14 Apr 2022 18:25:47 GMT
 - request:
     method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=13%20Rue%20Yves%20Toudic,%20Paris,%2075010
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
     body:
       encoding: US-ASCII
       string: ''
@@ -1468,7 +1238,84 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 11 Apr 2022 15:55:05 GMT
+      - Thu, 14 Apr 2022 18:25:48 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+    body:
+      encoding: UTF-8
+      string: "[]"
+  recorded_at: Thu, 14 Apr 2022 18:25:48 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Infinite%20Loop,%20Cupertino,%20CA%2095014
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Apr 2022 18:25:48 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjEyNzA5MjMxNSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOjExNDA1NDgyOSwiYm91bmRpbmdib3giOlsiMzcuMzMxMTk1NyIsIjM3LjMzMjE2NDkiLCItMTIyLjAzMDU1NDMiLCItMTIyLjAyOTgyNDUiXSwibGF0IjoiMzcuMzMxNjY5NyIsImxvbiI6Ii0xMjIuMDMwMDk4MjAyMTU1MDIiLCJkaXNwbGF5X25hbWUiOiJJbmZpbml0ZSBMb29wIDEsIDEsIEluZmluaXRlIExvb3AsIEFwcGxlIENhbXB1cywgQ3VwZXJ0aW5vLCBTYW50YSBDbGFyYSBDb3VudHksIENhbGlmb3JuaWEsIDk1MDE0LCBVbml0ZWQgU3RhdGVzIiwiY2xhc3MiOiJvZmZpY2UiLCJ0eXBlIjoiY29tcGFueSIsImltcG9ydGFuY2UiOjAuNjMwOTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJvZmZpY2UiOiJJbmZpbml0ZSBMb29wIDEiLCJob3VzZV9udW1iZXIiOiIxIiwicm9hZCI6IkluZmluaXRlIExvb3AiLCJjb21tZXJjaWFsIjoiQXBwbGUgQ2FtcHVzIiwiY2l0eSI6IkN1cGVydGlubyIsImNvdW50eSI6IlNhbnRhIENsYXJhIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsIklTTzMxNjYtMi1sdmw0IjoiVVMtQ0EiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoxMzc1NzA2MSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoxNDI5NDc3NTA0LCJib3VuZGluZ2JveCI6WyIzNy4zMzEzNTUiLCIzNy4zMzE0NTUiLCItMTIyLjAzMDQ2ODUiLCItMTIyLjAzMDM2ODUiXSwibGF0IjoiMzcuMzMxNDA1IiwibG9uIjoiLTEyMi4wMzA0MTg1IiwiZGlzcGxheV9uYW1lIjoiQXBwbGUgSW5maW5pdGUgTG9vcCwgMSwgSW5maW5pdGUgTG9vcCwgQXBwbGUgQ2FtcHVzLCBDdXBlcnRpbm8sIFNhbnRhIENsYXJhIENvdW50eSwgQ2FsaWZvcm5pYSwgOTUwMTQsIFVuaXRlZCBTdGF0ZXMiLCJjbGFzcyI6InNob3AiLCJ0eXBlIjoiZWxlY3Ryb25pY3MiLCJpbXBvcnRhbmNlIjowLjYzMDk5OTk5OTk5OTk5OTksImFkZHJlc3MiOnsic2hvcCI6IkFwcGxlIEluZmluaXRlIExvb3AiLCJob3VzZV9udW1iZXIiOiIxIiwicm9hZCI6IkluZmluaXRlIExvb3AiLCJjb21tZXJjaWFsIjoiQXBwbGUgQ2FtcHVzIiwiY2l0eSI6IkN1cGVydGlubyIsImNvdW50eSI6IlNhbnRhIENsYXJhIENvdW50eSIsInN0YXRlIjoiQ2FsaWZvcm5pYSIsIklTTzMxNjYtMi1sdmw0IjoiVVMtQ0EiLCJwb3N0Y29kZSI6Ijk1MDE0IiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fV0=
+  recorded_at: Thu, 14 Apr 2022 18:25:48 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=13%20Rue%20Yves%20Toudic,%20Paris%2075010
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Apr 2022 18:25:49 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -1485,10 +1332,10 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         W3sicGxhY2VfaWQiOjc0MTgxNDksImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6OTEyMjcwNzQ1LCJib3VuZGluZ2JveCI6WyI0OC44NzAwNzk1IiwiNDguODcwMTc5NSIsIjIuMzYzNDQxMyIsIjIuMzYzNTQxMyJdLCJsYXQiOiI0OC44NzAxMjk1IiwibG9uIjoiMi4zNjM0OTEzIiwiZGlzcGxheV9uYW1lIjoiMTMsIFJ1ZSBZdmVzIFRvdWRpYywgUXVhcnRpZXIgZGUgbGEgUG9ydGUtU2FpbnQtTWFydGluLCAxMHRoIEFycm9uZGlzc2VtZW50LCBQYXJpcywgSWxlLWRlLUZyYW5jZSwgTWV0cm9wb2xpdGFuIEZyYW5jZSwgNzUwMTAsIEZyYW5jZSIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoiaG91c2UiLCJpbXBvcnRhbmNlIjowLjYzMDk5OTk5OTk5OTk5OTksImFkZHJlc3MiOnsiaG91c2VfbnVtYmVyIjoiMTMiLCJyb2FkIjoiUnVlIFl2ZXMgVG91ZGljIiwiY2l0eV9ibG9jayI6IlF1YXJ0aWVyIGRlIGxhIFBvcnRlLVNhaW50LU1hcnRpbiIsInN1YnVyYiI6IjEwdGggQXJyb25kaXNzZW1lbnQiLCJjaXR5X2Rpc3RyaWN0IjoiUGFyaXMiLCJjaXR5IjoiUGFyaXMiLCJjb3VudHkiOiJQYXJpcyIsInN0YXRlIjoiSWxlLWRlLUZyYW5jZSIsInJlZ2lvbiI6Ik1ldHJvcG9saXRhbiBGcmFuY2UiLCJwb3N0Y29kZSI6Ijc1MDEwIiwiY291bnRyeSI6IkZyYW5jZSIsImNvdW50cnlfY29kZSI6ImZyIn19XQ==
-  recorded_at: Mon, 11 Apr 2022 15:55:05 GMT
+  recorded_at: Thu, 14 Apr 2022 18:25:49 GMT
 - request:
     method: get
-    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1600%20Fake%20Ave,%20Washington,%20DC,%2020500
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=122%20Mast%20Rd,%20Lee,%20NH%2003861
     body:
       encoding: US-ASCII
       string: ''
@@ -1507,7 +1354,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 11 Apr 2022 15:55:05 GMT
+      - Thu, 14 Apr 2022 18:25:49 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -1521,12 +1368,13 @@ http_interactions:
       Access-Control-Allow-Methods:
       - OPTIONS,GET
     body:
-      encoding: UTF-8
-      string: "[]"
-  recorded_at: Mon, 11 Apr 2022 15:55:05 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjMwNzM0NTgzNiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOjI3OTI5NzI5LCJib3VuZGluZ2JveCI6WyI0My4xMzYwNjc0Mjc2NTkiLCI0My4xMzYxNjc0Mjc2NTkiLCItNzAuOTg3MzMwOTE4NzU0IiwiLTcwLjk4NzIzMDkxODc1NCJdLCJsYXQiOiI0My4xMzYxMTc0Mjc2NTkxMiIsImxvbiI6Ii03MC45ODcyODA5MTg3NTQ0MiIsImRpc3BsYXlfbmFtZSI6IjEyMiwgTWFzdCBSb2FkLCBMZWUsIFN0cmFmZm9yZCBDb3VudHksIE5ldyBIYW1wc2hpcmUsIDAzODYxLCBVbml0ZWQgU3RhdGVzIiwiY2xhc3MiOiJwbGFjZSIsInR5cGUiOiJob3VzZSIsImltcG9ydGFuY2UiOjAuNTMwOTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJob3VzZV9udW1iZXIiOiIxMjIiLCJyb2FkIjoiTWFzdCBSb2FkIiwidmlsbGFnZSI6IkxlZSIsImNvdW50eSI6IlN0cmFmZm9yZCBDb3VudHkiLCJzdGF0ZSI6Ik5ldyBIYW1wc2hpcmUiLCJwb3N0Y29kZSI6IjAzODYxIiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJjb3VudHJ5X2NvZGUiOiJ1cyJ9fSx7InBsYWNlX2lkIjoxMzQ0MzIwODQsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoid2F5Iiwib3NtX2lkIjoxNDI1NDYzMDgsImJvdW5kaW5nYm94IjpbIjQzLjEzNTk2NSIsIjQzLjEzNjIxODUiLCItNzAuOTg2NDEwNyIsIi03MC45ODU1MTM2Il0sImxhdCI6IjQzLjEzNjEwMTIiLCJsb24iOiItNzAuOTg1ODM2ODM5NDgxMTgiLCJkaXNwbGF5X25hbWUiOiIxMjIsIE1hc3QgUm9hZCwgTGVlLCBTdHJhZmZvcmQgQ291bnR5LCBOZXcgSGFtcHNoaXJlLCAwMzg2MSwgVW5pdGVkIFN0YXRlcyIsImNsYXNzIjoiYnVpbGRpbmciLCJ0eXBlIjoieWVzIiwiaW1wb3J0YW5jZSI6MC41MzA5OTk5OTk5OTk5OTk5LCJhZGRyZXNzIjp7ImhvdXNlX251bWJlciI6IjEyMiIsInJvYWQiOiJNYXN0IFJvYWQiLCJ2aWxsYWdlIjoiTGVlIiwiY291bnR5IjoiU3RyYWZmb3JkIENvdW50eSIsInN0YXRlIjoiTmV3IEhhbXBzaGlyZSIsInBvc3Rjb2RlIjoiMDM4NjEiLCJjb3VudHJ5IjoiVW5pdGVkIFN0YXRlcyIsImNvdW50cnlfY29kZSI6InVzIn19XQ==
+  recorded_at: Thu, 14 Apr 2022 18:25:49 GMT
 - request:
     method: get
-    uri: http://api.geocod.io/v1.6/geocode?api_key=<api-key>&q=1%20Infinite%20Loop,%20Cupertino,%20CA,%2095014
+    uri: http://api.geocod.io/v1.6/geocode?api_key=<api-key>&q=1%20Infinite%20Loop,%20Cupertino,%20CA%2095014
     body:
       encoding: US-ASCII
       string: ''
@@ -1549,7 +1397,7 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       Date:
-      - Mon, 11 Apr 2022 15:55:06 GMT
+      - Thu, 14 Apr 2022 18:25:49 GMT
       X-Billable-Lookups-Count:
       - '1'
       X-Billable-Fields-Count:
@@ -1575,7 +1423,7 @@ http_interactions:
       X-Robots-Tag:
       - none
       X-Ratelimit-Remaining:
-      - '996'
+      - '997'
       X-Ratelimit-Limit:
       - '1000'
       X-Ratelimit-Period:
@@ -1591,5 +1439,157 @@ http_interactions:
         Infinite Loop, Cupertino, CA 95014","location":{"lat":37.331524,"lng":-122.030231},"accuracy":1,"accuracy_type":"rooftop","source":"City
         of Cupertino"}],"_warnings":["There is a newer API version available, please
         consider upgrading to v1.7. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}'
-  recorded_at: Mon, 11 Apr 2022 15:55:06 GMT
+  recorded_at: Thu, 14 Apr 2022 18:25:49 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=99%20Fictitious%20St,%20Westminster,%20London%20SW1A%202AA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Apr 2022 18:25:50 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+    body:
+      encoding: UTF-8
+      string: "[]"
+  recorded_at: Thu, 14 Apr 2022 18:25:50 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 14 Apr 2022 18:25:50 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+    body:
+      encoding: UTF-8
+      string: "[]"
+  recorded_at: Thu, 14 Apr 2022 18:25:50 GMT
+- request:
+    method: get
+    uri: http://api.geocod.io/v1.6/geocode?api_key=<api-key>&q=1%20Fake%20Loop,%20Cupertino,%20CA%2095014
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Cache-Control:
+      - no-cache, private
+      Date:
+      - Thu, 14 Apr 2022 18:25:50 GMT
+      X-Billable-Lookups-Count:
+      - '1'
+      X-Billable-Fields-Count:
+      - '0'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Headers:
+      - Content-Type, User-Agent
+      Access-Control-Expose-Headers:
+      - Request-Handler
+      Request-Handler:
+      - api203
+      Server:
+      - Unicorns with magic wands (https://www.geocod.io)
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Robots-Tag:
+      - none
+      X-Ratelimit-Remaining:
+      - '996'
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Period:
+      - '60'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"input":{"address_components":{"number":"1","city":"Cupertino","state":"CA","zip":"95014","country":"US"},"formatted_address":"1,
+        Cupertino, CA 95014"},"results":[{"address_components":{"city":"Cupertino","county":"Santa
+        Clara County","state":"CA","zip":"95014","country":"US"},"formatted_address":"Cupertino,
+        CA 95014","location":{"lat":37.30661,"lng":-122.080628},"accuracy":0.5,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Cupertino","county":"Santa
+        Clara County","state":"CA","zip":"95015","country":"US"},"formatted_address":"Cupertino,
+        CA 95015","location":{"lat":37.189396,"lng":-121.705327},"accuracy":0.5,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Monta Vista","county":"Santa
+        Clara County","state":"CA","zip":"95014","country":"US"},"formatted_address":"Monta
+        Vista, CA 95014","location":{"lat":37.32272,"lng":-122.058017},"accuracy":0.28,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"},{"address_components":{"city":"Rancho
+        Rinconada","county":"Santa Clara County","state":"CA","zip":"95014","country":"US"},"formatted_address":"Rancho
+        Rinconada, CA 95014","location":{"lat":37.314942,"lng":-122.003015},"accuracy":0.28,"accuracy_type":"place","source":"TIGER\/Line\u00ae
+        dataset from the US Census Bureau"}],"_warnings":["There is a newer API version
+        available, please consider upgrading to v1.7. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}'
+  recorded_at: Thu, 14 Apr 2022 18:25:50 GMT
 recorded_with: VCR 6.1.0

@@ -5,6 +5,7 @@ require "minitest/autorun"
 require "minitest/pride"
 require "vcr"
 require "webmock"
+require 'byebug'
 
 def smarty_streets?
   !ENV["SMARTY_STREETS_AUTH_ID"].nil?
@@ -49,6 +50,7 @@ end
 
 ActiveRecord::Migration.create_table :address_with_accuracies do |t|
   t.text :street
+  t.text :apt
   t.text :city
   t.string :region
   t.string :postal_code
@@ -59,6 +61,7 @@ end
 
 class AddressWithAccuracy < ActiveRecord::Base
   validates_address fields: [:street, :city, :region, :postal_code],
+                    address_parts: [address_1: :street, address_2: :apt, city: :city, state: :region, postcode: :postal_code],
                     geocode: true,
                     accuracy: 1,
                     country: -> { country }

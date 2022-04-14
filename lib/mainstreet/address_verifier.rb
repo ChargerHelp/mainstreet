@@ -1,10 +1,11 @@
 module MainStreet
   class AddressVerifier
-    def initialize(address, country: nil, locale: nil, accuracy: nil)
+    def initialize(address, country: nil, locale: nil, accuracy: nil, address_parts: nil)
       @address = address
       @country = country
       @locale = locale
       @accuracy = accuracy
+      @address_parts = address_parts
     end
 
     def success?
@@ -13,7 +14,7 @@ module MainStreet
 
     def failure_message
       if !result
-        message :unconfirmed, "Address can't be confirmed"
+        message :unconfirmed, "can't be confirmed"
       elsif result.respond_to?(:analysis)
         analysis = result.analysis
 
@@ -41,7 +42,7 @@ module MainStreet
           end
         end
       elsif result.respond_to?(:accuracy) && @accuracy.present?
-        message :unconfirmed, "Address can't be confirmed" if result.accuracy < @accuracy
+        message :unconfirmed, "can't be confirmed" if result.accuracy < @accuracy
       end
     end
 
@@ -68,8 +69,31 @@ module MainStreet
       result && result.longitude
     end
 
-    def verify_address_parts
+    def confirm_postcode_error_message
+      if @address_parts.present? && result.data["address_components"] && result.data["address_components"]["zip"] && result.data["address_components"]["zip"].downcase != @address_parts[:postcode].downcase.strip
+        "could not be confirmed, suggested zipcode: #{result.data["address_components"]["zip"]}"
+      end
+    end
 
+    def confirm_city_error_message
+      if @address_parts.present? && result.data["address_components"] && result.data["address_components"]["city"] && result.data["address_components"]["city"].downcase != @address_parts[:city].downcase.strip
+        "could not be confirmed, suggested city: #{result.data["address_components"]["city"]}"
+      end
+    end
+
+    def confirm_state_error_message
+      if @address_parts.present? && result.data["address_components"] && result.data["address_components"]["state"] && result.data["address_components"]["state"].downcase != @address_parts[:state].downcase.strip
+        "could not be confirmed, suggested state: #{result.data["address_components"]["state"]}"
+      end
+    end
+
+    def confirm_street_address_error_message
+      if @address_parts.present?
+        if result.data["address_components"].nil? || result.data["address_components"]["number"].nil? ||  result.data["address_components"]["street"].nil?
+          byebug
+          "could not be confirmed, missing street number or name"
+        end
+      end
     end
 
     private

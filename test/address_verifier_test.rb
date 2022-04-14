@@ -14,7 +14,7 @@ class AddressVerifierTest < Minitest::Test
     address = "1 Fake Loop, Cupertino, CA 95014"
     verifier = MainStreet::AddressVerifier.new(address)
     assert !verifier.success?
-    assert_equal "Address can't be confirmed", verifier.failure_message
+    assert_equal "can't be confirmed", verifier.failure_message
     assert_nil verifier.latitude
     assert_nil verifier.longitude
   end
@@ -67,7 +67,7 @@ class AddressVerifierTest < Minitest::Test
     address = "1 Fake Loop, Cupertino, CA 95014"
     verifier = MainStreet::AddressVerifier.new(address, accuracy: 1)
     assert !verifier.success?
-    assert_equal "Address can't be confirmed", verifier.failure_message
+    assert_equal "can't be confirmed", verifier.failure_message
     use_nominatim
   end
 end

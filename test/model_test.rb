@@ -21,7 +21,7 @@ class ModelTest < Minitest::Test
       postal_code: "20500"
     )
     assert !address.valid?
-    assert_equal ["Address can't be confirmed"], address.errors.full_messages
+    assert_equal ["Address 1 can't be confirmed"], address.errors.full_messages
   end
 
   def test_blank
@@ -64,7 +64,7 @@ class ModelTest < Minitest::Test
       postal_code: "20500"
     )
     assert !address.valid?
-    assert_equal ["Address can't be confirmed"], address.errors.full_messages
+    assert_equal ["Address 1 can't be confirmed"], address.errors.full_messages
     use_nominatim
   end
 end
