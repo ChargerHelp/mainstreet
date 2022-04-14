@@ -42,6 +42,10 @@ module MainStreet
         end
       elsif result.respond_to?(:accuracy) && @accuracy.present?
         message :unconfirmed, "Address can't be confirmed" if result.accuracy < @accuracy
+
+        if result.formatted_address.downcase != @address.downcase
+          message :unconfirmed, "Address can't be confirmed, suggested address: #{result.formatted_address}"
+        end
       end
     end
 
@@ -66,6 +70,10 @@ module MainStreet
 
     def longitude
       result && result.longitude
+    end
+
+    def verify_address_parts
+
     end
 
     private
