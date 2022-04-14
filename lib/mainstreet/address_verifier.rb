@@ -90,7 +90,6 @@ module MainStreet
     def confirm_street_address_error_message
       if @address_parts.present?
         if result.data["address_components"].nil? || result.data["address_components"]["number"].nil? ||  result.data["address_components"]["street"].nil?
-          byebug
           "could not be confirmed, missing street number or name"
         end
       end
