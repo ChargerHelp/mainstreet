@@ -43,7 +43,7 @@ module MainStreet
       elsif result.respond_to?(:accuracy) && @accuracy.present?
         message :unconfirmed, "Address can't be confirmed" if result.accuracy < @accuracy
 
-        if result.formatted_address.downcase != @address.downcase
+        if result.formatted_address.downcase.delete(",") != @address.downcase.delete(",")
           message :unconfirmed, "Address can't be confirmed, suggested address: #{result.formatted_address}"
         end
       end
