@@ -1,5 +1,8 @@
 module MainStreet
   class AddressVerifier
+
+    attr_accessor :google_lat, :google_long
+
     def initialize(address, country: nil, locale: nil, accuracy: nil, address_parts: nil)
       @address = address
       @country = country
@@ -42,7 +45,24 @@ module MainStreet
           end
         end
       elsif result.respond_to?(:accuracy) && @accuracy.present?
-        message :unconfirmed, "can't be confirmed" if result.accuracy < @accuracy
+        if result.accuracy < @accuracy
+          if !confirmed_with_google
+             message :unconfirmed, "can't be confirmed"
+          end
+        end
+      end
+    end
+
+    def confirmed_with_google
+      google_results = Geocoder.search(@address, lookup: :google).first
+      return false if google_results.data["partial_match"].present? && google_results.data["partial_match"]
+
+      if google_results.data["place_id"].present?
+        self.google_lat = google_results.geometry["location"]["lat"]
+        self.google_long = google_results.geometry["location"]["lng"]
+        return true
+      else
+        return false
       end
     end
 
@@ -62,11 +82,19 @@ module MainStreet
     end
 
     def latitude
-      result && result.latitude
+      if self.google_lat.present?
+        self.google_lat
+      else
+        result && result.latitude
+      end
     end
 
     def longitude
-      result && result.longitude
+      if self.google_long.present?
+        self.google_long
+      else
+        result && result.longitude
+      end
     end
 
     def confirm_postcode_error_message
