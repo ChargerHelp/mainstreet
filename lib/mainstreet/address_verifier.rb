@@ -1,7 +1,7 @@
 module MainStreet
   class AddressVerifier
 
-    attr_accessor :google_lat, :google_long, :google_address_components
+    attr_accessor :google_address_components
 
     def initialize(address, country: nil, locale: nil, accuracy: nil, address_parts: nil)
       @address = address
@@ -58,9 +58,7 @@ module MainStreet
       return false if google_results.data["partial_match"].present? && google_results.data["partial_match"]
 
       if google_results.data["place_id"].present?
-        self.google_lat = google_results.geometry["location"]["lat"]
-        self.google_long = google_results.geometry["location"]["lng"]
-        self.google_address_components = google_results.data["address_components"].to_h {|h| [h["types"][0],h["long_name"]] }
+        self.google_address_components = google_results.data["address_components"].to_h {|h| [h["types"][0],h["short_name"]] }
         return true
       else
         return false
@@ -83,19 +81,11 @@ module MainStreet
     end
 
     def latitude
-      if self.google_lat.present?
-        self.google_lat
-      else
         result && result.latitude
-      end
     end
 
     def longitude
-      if self.google_long.present?
-        self.google_long
-      else
         result && result.longitude
-      end
     end
 
     def confirm_postcode_error_message
