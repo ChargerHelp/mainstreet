@@ -99,46 +99,30 @@ module MainStreet
     end
 
     def confirm_postcode_error_message
-      if @address_parts.present?
-        if self.google_address_components.present?
-          if google_address_components["postal_code"] && google_address_components["postal_code"].downcase != @address_parts[:postcode].downcase.strip
-            "could not be confirmed, suggested zipcode: #{google_address_components["postal_code"]}"
-          end
-        else
-          if result.data["address_components"] && result.data["address_components"]["zip"] && result.data["address_components"]["zip"].downcase != @address_parts[:postcode].downcase.strip
-             "could not be confirmed, suggested zipcode: #{result.data["address_components"]["zip"]}"
-          end
+      return if google_address_components.present?
+        if @address_parts.present? && result.data["address_components"] && result.data["address_components"]["zip"] && result.data["address_components"]["zip"].downcase != @address_parts[:postcode].downcase.strip
+          "could not be confirmed, suggested zipcode: #{result.data["address_components"]["zip"]}"
         end
-      end
     end
 
     def confirm_city_error_message
-      if @address_parts.present?
-        if self.google_address_components.present? && google_address_components["locality"] && google_address_components["locality"].downcase != @address_parts[:city].downcase.strip
-          "could not be confirmed, suggested city: #{result.data["address_components"]["city"]}"
-        else
-          if @address_parts.present? && result.data["address_components"] && result.data["address_components"]["city"] && result.data["address_components"]["city"].downcase != @address_parts[:city].downcase.strip
-            "could not be confirmed, suggested city: #{result.data["address_components"]["city"]}"
-          end
-        end
+      return if google_address_components.present?
+      if @address_parts.present? && result.data["address_components"] && result.data["address_components"]["city"] && result.data["address_components"]["city"].downcase != @address_parts[:city].downcase.strip
+        "could not be confirmed, suggested city: #{result.data["address_components"]["city"]}"
       end
     end
 
     def confirm_state_error_message
-      if @address_parts.present?
-        if self.google_address_components.present? && self.google_address_components["administrative_area_level_1"].downcase != @address_parts[:state].downcase.strip
-          "could not be confirmed, suggested state: #{result.data["address_components"]["state"]}"
-        elsif result.data["address_components"] && result.data["address_components"]["state"] && result.data["address_components"]["state"].downcase != @address_parts[:state].downcase.strip
-          "could not be confirmed, suggested state: #{result.data["address_components"]["state"]}"
-        end
+      return if google_address_components.present?
+      if @address_parts.present? && result.data["address_components"] && result.data["address_components"]["state"] && result.data["address_components"]["state"].downcase != @address_parts[:state].downcase.strip
+        "could not be confirmed, suggested state: #{result.data["address_components"]["state"]}"
       end
     end
 
     def confirm_street_address_error_message
+      return if google_address_components.present?
       if @address_parts.present?
-        if self.google_address_components.present? && self.google_address_components["street_number"].nil? || self.google_address_components["route"].nil?
-          "could not be confirmed, missing street number or name"
-        elsif result.data["address_components"].nil? || result.data["address_components"]["number"].nil? ||  result.data["address_components"]["street"].nil?
+        if result.data["address_components"].nil? || result.data["address_components"]["number"].nil? ||  result.data["address_components"]["street"].nil?
           "could not be confirmed, missing street number or name"
         end
       end
