@@ -55,7 +55,7 @@ module MainStreet
 
     def confirmed_with_google
       google_results = Geocoder.search(@address, lookup: :google).first
-      return false if google_results.data["partial_match"].present? && google_results.data["partial_match"]
+      return false if google_results.nil? || google_results.data.nil? || google_results.data["partial_match"].present? && google_results.data["partial_match"]
 
       if google_results.data["place_id"].present?
         self.google_address_components = google_results.data["address_components"].to_h {|h| [h["types"][0],h["short_name"]] }
@@ -90,7 +90,7 @@ module MainStreet
 
     def confirm_postcode_error_message
       return if google_address_components.present?
-        if @address_parts.present? && result.data["address_components"] && result.data["address_components"]["zip"] && result.data["address_components"]["zip"].downcase != @address_parts[:postcode].downcase.strip
+        if @address_parts.present? && result.data["address_components"] && result.data["address_components"]["zip"] && result.data["address_components"]["zip"].downcase != @address_parts[:postcode]&.downcase&.strip
           "could not be confirmed, suggested zipcode: #{result.data["address_components"]["zip"]}"
         end
     end
